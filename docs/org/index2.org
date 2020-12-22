@@ -1,39 +1,68 @@
-#+TITLE: test
+#+TITLE: Org Publish Setup
 #+EXPORT_FILE_NAME: ../index2.html
-#+OPTIONS: num:nil toc:t ^:nil f:nil TeX:nil LaTeX:nil
-#+STYLE: <link href="css/main.css" rel="stylesheet" type="text/css"/>
 
-* css for org mode
-  
-  [[https://orgmode.org/manual/CSS-support.html][web: orgmode.org - Manual: Css Support]]
 
-* convert org page to html
+* Convert org file to an html file
 
-  #+begin_src emacs-lisp :results code
-   M-x org-export-dispatch RET h
-  #+end_src
+  Aqui configuro opciones para publicar aglunos archivos escrito
+  in formato de org-mode, como paginas web in mi pagina web.
 
-  export org file as html to a buffer
+  He dado el nombre 'falla-conmigo-github' a las opciones associated
+  con mi reglas de exportar para mi pagina web.
 
-  #+begin_src emacs-lisp :results code
-   org-html-export-as-html
-  #+end_src
+  :base-directory - los archivos bajo esta carparta son
+  associated con este projecto.
 
-  export org file as html to a file
+  :publishing-directory - el path relativo de archives de
+  base-directory sera movido, a esta directorio, mantiendo su ruta
+  relativa.
 
-  #+begin_src emacs-lisp :results code
-   org-html-export-to-html
-  #+end_src
+  :with-toc - si quieres anadir una tabla de contenido a los archivos exportados
 
-  change directory, add heading to org file
+  :html-postamble - si quieres anadir su propio pie de pagina
 
   #+begin_src emacs-lisp :results code
-   ,#+EXPORT_FILE_NAME: ../index2.html
+   ("falla-conmigo-github"
+    :base-directory "~/wd/falla-conmigo/docs/org/"
+    :publishing-directory "~/wd/falla-conmigo/docs"
+    :publishing-function org-html-publish-to-html
+    :section-numbers nil
+    :html-postamble (lambda (&rest ignore)
+		      (format "
+	<div class=\"footerDate\">
+	<p class=\"date\">
+	Last edit: %s %s
+	</p>
+	</div>
+	" (today) (now)))
+    :with-toc nil
+    :html-head "<link rel=\"stylesheet\"
+	href=\"css/main.css\"
+	type=\"text/css\"/>")
   #+end_src
+
+  Tienes que anadir sus reglas de proyecto a org-publish-project-alist
 
   #+begin_src emacs-lisp :results code
    (setq org-publish-project-alist
-	 '(("html"
+	 '(("falla-conmigo-github"
+	    :base-directory "~/wd/falla-conmigo/docs/org/"
+	    :publishing-directory "~/wd/falla-conmigo/docs"
+	    :publishing-function org-html-publish-to-html
+	    :section-numbers nil
+	    :html-postamble (lambda (&rest ignore)
+			      (format "
+     <div class=\"footerDate\">
+     <p class=\"date\">
+     Last edit: %s %s
+     </p>
+     </div>
+     " (today) (now)))
+	    :with-toc nil
+	    :html-head "<link rel=\"stylesheet\"
+     href=\"css/main.css\"
+     type=\"text/css\"/>")
+	   ("html"
 	    :base-directory "~/org/"
 	    :base-extension "org"
 	    :publishing-directory "~/org/exports"
@@ -46,6 +75,33 @@
 	   ("all" :components ("html" "pdf"))))
   #+end_src
 
-  see:
-  [[https://gist.github.com/dashohoxha/5981222][web: gist.github.com - Dashohoxha: 5981222]]
-  [[https://stackoverflow.com/questions/9559753/emacs-org-mode-export-to-another-directory][stackoverflow: Emacs Org-mode - Export to another directory?]]
+  puedes publicar el buffer actual usando
+
+  #+begin_src emacs-lisp :results code
+   M-x org-publish-current-file
+  #+end_src
+
+  puedes publicar el proyecto entero usando
+
+  #+begin_src emacs-lisp :results code
+   M-x org-publish-project RET falla-conmigo-github
+  #+end_src
+
+
+  Tambien ver:
+  - org-export-dispatch - selectionar que methodo a usar para
+    convertir el buffer
+  - org-html-export-as-html - convertir buffer a html y mostrar en
+    nuevo buffer
+  - org-html-export-to-html - convertir buffer a html y escribir a un
+    archive de .html con la misma nomber in la misma directorio
+
+  Articulos que lee:
+  - [[https://gist.github.com/dashohoxha/5981222][web: gist.github.com - Dashohoxha: 5981222]]
+  - [[https://stackoverflow.com/questions/9559753/emacs-org-mode-export-to-another-directory][stackoverflow: Emacs Org-mode - Export to another directory?]]
+
+
+
+* css
+  
+  [[https://orgmode.org/manual/CSS-support.html][Official Docs: Css]]

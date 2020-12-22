@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-12-22 Tue 13:34 -->
+<!-- 2020-12-22 Tue 20:12 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>test</title>
+<title>Org Publish Setup</title>
 <meta name="generator" content="Org mode" />
 <meta name="author" content="Deric Bytes" />
 <style type="text/css">
@@ -193,6 +193,9 @@
   .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
+<link rel="stylesheet"
+href="css/main.css"
+type="text/css"/>
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
@@ -242,55 +245,86 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">test</h1>
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#orgdc28c86">convert org page to html</a></li>
-</ul>
-</div>
-</div>
+<h1 class="title">Org Publish Setup</h1>
 
 
-<div id="outline-container-orgdc28c86" class="outline-2">
-<h2 id="orgdc28c86">convert org page to html</h2>
-<div class="outline-text-2" id="text-orgdc28c86">
+<div id="outline-container-orgb78baba" class="outline-2">
+<h2 id="orgb78baba">Convert org file to an html file</h2>
+<div class="outline-text-2" id="text-orgb78baba">
+<p>
+Aqui configuro opciones para publicar aglunos archivos escrito
+in formato de org-mode, como paginas web in mi pagina web.
+</p>
+
+<p>
+He dado el nombre 'falla-conmigo-github' a las opciones associated
+con mi reglas de exportar para mi pagina web.
+</p>
+
+<p>
+:base-directory - los archivos bajo esta carparta son
+associated con este projecto.
+</p>
+
+<p>
+:publishing-directory - el path relativo de archives de
+base-directory sera movido, a esta directorio, mantiendo su ruta
+relativa.
+</p>
+
+<p>
+:with-toc - si quieres anadir una tabla de contenido a los archivos exportados
+</p>
+
+<p>
+:html-postamble - si quieres anadir su propio pie de pagina
+</p>
+
 <div class="org-src-container">
-<pre class="src src-emacs-lisp">M-x org-export-dispatch RET h
+<pre class="src src-emacs-lisp">(<span style="color: #8b2252;">"falla-conmigo-github"</span>
+ <span style="color: #483d8b;">:base-directory</span> <span style="color: #8b2252;">"~/wd/falla-conmigo/docs/org/"</span>
+ <span style="color: #483d8b;">:publishing-directory</span> <span style="color: #8b2252;">"~/wd/falla-conmigo/docs"</span>
+ <span style="color: #483d8b;">:publishing-function</span> org-html-publish-to-html
+ <span style="color: #483d8b;">:section-numbers</span> nil
+ <span style="color: #483d8b;">:html-postamble</span> (<span style="color: #a020f0;">lambda</span> (<span style="color: #228b22;">&amp;rest</span> <span style="color: #a0522d;">ignore</span>)
+                   (format <span style="color: #8b2252;">"</span>
+<span style="color: #8b2252;">     &lt;div class=\"footerDate\"&gt;</span>
+<span style="color: #8b2252;">     &lt;p class=\"date\"&gt;</span>
+<span style="color: #8b2252;">     Last edit: %s %s</span>
+<span style="color: #8b2252;">     &lt;/p&gt;</span>
+<span style="color: #8b2252;">     &lt;/div&gt;</span>
+<span style="color: #8b2252;">     "</span> (today) (now)))
+ <span style="color: #483d8b;">:with-toc</span> nil
+ <span style="color: #483d8b;">:html-head</span> <span style="color: #8b2252;">"&lt;link rel=\"stylesheet\"</span>
+<span style="color: #8b2252;">     href=\"css/main.css\"</span>
+<span style="color: #8b2252;">     type=\"text/css\"/&gt;"</span>)
 </pre>
 </div>
 
 <p>
-export org file as html to a buffer
+Tienes que anadir sus reglas de proyecto a org-publish-project-alist
 </p>
-
-<div class="org-src-container">
-<pre class="src src-emacs-lisp">org-html-export-as-html
-</pre>
-</div>
-
-<p>
-export org file as html to a file
-</p>
-
-<div class="org-src-container">
-<pre class="src src-emacs-lisp">org-html-export-to-html
-</pre>
-</div>
-
-<p>
-change directory, add heading to org file
-</p>
-
-<div class="org-src-container">
-<pre class="src src-emacs-lisp">#+EXPORT_FILE_NAME: ../index2.html
-</pre>
-</div>
 
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(<span style="color: #a020f0;">setq</span> org-publish-project-alist
-      '<span style="color: #008b8b;">((</span><span style="color: #8b2252;">"html"</span>
+      '<span style="color: #008b8b;">((</span><span style="color: #8b2252;">"falla-conmigo-github"</span>
+<span style="color: #008b8b;">         </span><span style="color: #483d8b;">:base-directory</span><span style="color: #008b8b;"> </span><span style="color: #8b2252;">"~/wd/falla-conmigo/docs/org/"</span>
+<span style="color: #008b8b;">         </span><span style="color: #483d8b;">:publishing-directory</span><span style="color: #008b8b;"> </span><span style="color: #8b2252;">"~/wd/falla-conmigo/docs"</span>
+<span style="color: #008b8b;">         </span><span style="color: #483d8b;">:publishing-function</span><span style="color: #008b8b;"> org-html-publish-to-html</span>
+<span style="color: #008b8b;">         </span><span style="color: #483d8b;">:section-numbers</span><span style="color: #008b8b;"> nil</span>
+<span style="color: #008b8b;">         </span><span style="color: #483d8b;">:html-postamble</span><span style="color: #008b8b;"> (</span><span style="color: #a020f0;">lambda</span><span style="color: #008b8b;"> (</span><span style="color: #228b22;">&amp;rest</span><span style="color: #008b8b;"> </span><span style="color: #a0522d;">ignore</span><span style="color: #008b8b;">)</span>
+<span style="color: #008b8b;">                           (format </span><span style="color: #8b2252;">"</span>
+<span style="color: #8b2252;">  &lt;div class=\"footerDate\"&gt;</span>
+<span style="color: #8b2252;">  &lt;p class=\"date\"&gt;</span>
+<span style="color: #8b2252;">  Last edit: %s %s</span>
+<span style="color: #8b2252;">  &lt;/p&gt;</span>
+<span style="color: #8b2252;">  &lt;/div&gt;</span>
+<span style="color: #8b2252;">  "</span><span style="color: #008b8b;"> (today) (now)))</span>
+<span style="color: #008b8b;">         </span><span style="color: #483d8b;">:with-toc</span><span style="color: #008b8b;"> nil</span>
+<span style="color: #008b8b;">         </span><span style="color: #483d8b;">:html-head</span><span style="color: #008b8b;"> </span><span style="color: #8b2252;">"&lt;link rel=\"stylesheet\"</span>
+<span style="color: #8b2252;">  href=\"css/main.css\"</span>
+<span style="color: #8b2252;">  type=\"text/css\"/&gt;"</span><span style="color: #008b8b;">)</span>
+<span style="color: #008b8b;">        (</span><span style="color: #8b2252;">"html"</span>
 <span style="color: #008b8b;">         </span><span style="color: #483d8b;">:base-directory</span><span style="color: #008b8b;"> </span><span style="color: #8b2252;">"~/org/"</span>
 <span style="color: #008b8b;">         </span><span style="color: #483d8b;">:base-extension</span><span style="color: #008b8b;"> </span><span style="color: #8b2252;">"org"</span>
 <span style="color: #008b8b;">         </span><span style="color: #483d8b;">:publishing-directory</span><span style="color: #008b8b;"> </span><span style="color: #8b2252;">"~/org/exports"</span>
@@ -305,17 +339,64 @@ change directory, add heading to org file
 </div>
 
 <p>
-see:
-<a href="https://gist.github.com/dashohoxha/5981222">web: gist.github.com - Dashohoxha: 5981222</a>
-<a href="https://stackoverflow.com/questions/9559753/emacs-org-mode-export-to-another-directory">stackoverflow: Emacs Org-mode - Export to another directory?</a>
+puedes publicar el buffer actual usando
+</p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">M-x org-publish-current-file
+</pre>
+</div>
+
+<p>
+puedes publicar el proyecto entero usando
+</p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">M-x org-publish-project RET falla-conmigo-github
+</pre>
+</div>
+
+
+<p>
+Tambien ver:
+</p>
+<ul class="org-ul">
+<li>org-export-dispatch - selectionar que methodo a usar para
+convertir el buffer</li>
+<li>org-html-export-as-html - convertir buffer a html y mostrar en
+nuevo buffer</li>
+<li>org-html-export-to-html - convertir buffer a html y escribir a un
+archive de .html con la misma nomber in la misma directorio</li>
+</ul>
+
+<p>
+Articulos que lee:
+</p>
+<ul class="org-ul">
+<li><a href="https://gist.github.com/dashohoxha/5981222">web: gist.github.com - Dashohoxha: 5981222</a></li>
+<li><a href="https://stackoverflow.com/questions/9559753/emacs-org-mode-export-to-another-directory">stackoverflow: Emacs Org-mode - Export to another directory?</a></li>
+</ul>
+</div>
+</div>
+
+
+
+<div id="outline-container-orgdc9d26b" class="outline-2">
+<h2 id="orgdc9d26b">css</h2>
+<div class="outline-text-2" id="text-orgdc9d26b">
+<p>
+<a href="https://orgmode.org/manual/CSS-support.html">Official Docs: Css</a>
 </p>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="author">Author: Deric Bytes</p>
-<p class="date">Created: 2020-12-22 Tue 13:34</p>
-<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+
+<div class="footerDate">
+<p class="date">
+Last edit: 2020/12/22 20:12:50
+</p>
+</div>
 </div>
 </body>
 </html>
