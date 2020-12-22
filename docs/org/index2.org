@@ -1,0 +1,51 @@
+#+TITLE: test
+#+EXPORT_FILE_NAME: ../index2.html
+#+OPTIONS: num:nil toc:t ^:nil f:nil TeX:nil LaTeX:nil
+#+STYLE: <link href="css/main.css" rel="stylesheet" type="text/css"/>
+
+* css for org mode
+  
+  [[https://orgmode.org/manual/CSS-support.html][web: orgmode.org - Manual: Css Support]]
+
+* convert org page to html
+
+  #+begin_src emacs-lisp :results code
+   M-x org-export-dispatch RET h
+  #+end_src
+
+  export org file as html to a buffer
+
+  #+begin_src emacs-lisp :results code
+   org-html-export-as-html
+  #+end_src
+
+  export org file as html to a file
+
+  #+begin_src emacs-lisp :results code
+   org-html-export-to-html
+  #+end_src
+
+  change directory, add heading to org file
+
+  #+begin_src emacs-lisp :results code
+   ,#+EXPORT_FILE_NAME: ../index2.html
+  #+end_src
+
+  #+begin_src emacs-lisp :results code
+   (setq org-publish-project-alist
+	 '(("html"
+	    :base-directory "~/org/"
+	    :base-extension "org"
+	    :publishing-directory "~/org/exports"
+	    :publishing-function org-publish-org-to-html)
+	   ("pdf"
+	    :base-directory "~/org/"
+	    :base-extension "org"
+	    :publishing-directory "~/org/exports"
+	    :publishing-function org-publish-org-to-pdf)
+	   ("all" :components ("html" "pdf"))))
+  #+end_src
+
+  see:
+  [[https://gist.github.com/dashohoxha/5981222][web: gist.github.com - Dashohoxha: 5981222]]
+  [[https://stackoverflow.com/questions/9559753/emacs-org-mode-export-to-another-directory][stackoverflow: Emacs Org-mode - Export to another directory?]]
