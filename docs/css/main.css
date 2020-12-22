@@ -5,8 +5,9 @@ body {
 .section {
     padding-left: 30;
     margin-left: 30;
+    background-color: #eee;
 }
 
 .div.outline-N {
-    background-color: "#eee";
+    background-color: #eee;
 }
