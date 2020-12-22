@@ -1,7 +1,11 @@
+body {
+      background-color: powderblue;
+}
+
 .section {
   padding-left: 30;
 }
 
 .div.outline-N {
-    background-color: "#eee"
+    background-color: "#eee";
 }
