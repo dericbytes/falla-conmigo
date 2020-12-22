@@ -7,10 +7,7 @@ function init(){
 
 }
 
-
-
-
 window.addEventListener('load', (event) => {
-    console.log('page is fully loaded');
-    init();
+    // console.log('page is fully loaded');
+    // init();
 });
