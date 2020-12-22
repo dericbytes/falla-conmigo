@@ -27,3 +27,47 @@ h1 {
 .div.outline-N {
     background-color: #eee;
 }
+
+
+
+
+
+#content {
+    /* background-color: #e32 */
+   margin: 10px 10px;
+
+}
+
+@media screen and (min-width: 480px) {
+   #content { 
+      margin: 10% 10%;
+   } 
+}
+
+
+.org-src-container {
+    margin: 10;
+    padding: 10;
+}
+
+/* pre.src:before { */
+/*     display: none; */
+/*     position: absolute; */
+/*     background-color: red; */
+/*     top: -10px; */
+/*     right: 10px; */
+/*     padding: 3px; */
+/*     border: 30px solid green; */
+/* } */
+
+
+pre {
+    background-color: white;
+    border: 1px solid #eee;
+    box-shadow: 1px 1px 1px #ddd;
+    padding: 18pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+    border-radius: 2px 8px;
+}
