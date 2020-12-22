@@ -1,5 +1,5 @@
-#+TITLE: Org Publish Setup
-#+EXPORT_FILE_NAME: ../index2.html
+#+TITLE: Org Publish Setup 
+
 
 
 * Convert org file to an html file

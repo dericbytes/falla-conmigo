@@ -16,6 +16,7 @@ h1 {
     margin: 30px;
     padding: 30px;
     padding-top: 10px;
+    padding-bottom: 2px;
     border-top-left-radius: 30px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 30px;
@@ -30,25 +31,26 @@ h1 {
 
 
 
-
-
 #content {
     /* background-color: #e32 */
-   margin: 10px 10px;
-
+    margin: 0 10px 60px 10px;
 }
 
 @media screen and (min-width: 480px) {
-   #content { 
-      margin: 10% 10%;
-   } 
+    #content { 
+	margin: 0 10% 60px 10%;
+    } 
 }
 
 
 .org-src-container {
     margin: 10;
+    margin-top: 0px;
+    padding-top: 0px;
     padding: 10;
 }
+
+
 
 /* pre.src:before { */
 /*     display: none; */
@@ -71,3 +73,14 @@ pre {
     margin: 1.2em;
     border-radius: 2px 8px;
 }
+
+
+.sectionDate, .footerDate {
+    font-size: small;
+    color: #555;
+    text-align: right;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+}
+
