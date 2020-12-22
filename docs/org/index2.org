@@ -1,6 +1,4 @@
-#+TITLE: Org Publish Setup 
-
-
+#+TITLE: Org Publish Setup
 
 * Convert org file to an html file
 
@@ -96,7 +94,7 @@
   - org-html-export-to-html - convertir buffer a html y escribir a un
     archive de .html con la misma nomber in la misma directorio
 
-  Articulos que lee:
+  Artículos que leí:
   - [[https://gist.github.com/dashohoxha/5981222][web: gist.github.com - Dashohoxha: 5981222]]
   - [[https://stackoverflow.com/questions/9559753/emacs-org-mode-export-to-another-directory][stackoverflow: Emacs Org-mode - Export to another directory?]]
 
