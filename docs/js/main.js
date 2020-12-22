@@ -1,15 +1,16 @@
 function init(){
     //debugger;
-    var element = document.createElement("div");
-    var para = document.createTextNode('yippie');
-    element.appendChild(para);
+    let element = document.createElement("div");
+    let text = document.createTextNode('yippie');
+    element.appendChild(text);
     document.getElementsByTagName('body')[0].appendChild(element);
 
 }
 
-window.onload=init();
+
 
 
 window.addEventListener('load', (event) => {
-  console.log('page is fully loaded');
+    console.log('page is fully loaded');
+    init();
 });
