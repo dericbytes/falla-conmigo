@@ -10,16 +10,16 @@
   He dado el nombre 'falla-conmigo-github' a las opciones associated
   con mi reglas de exportar para mi pagina web.
 
-  :base-directory - los archivos bajo esta carparta son
+  *:base-directory* - los archivos bajo esta carparta son
   associated con este projecto.
 
-  :publishing-directory - el path relativo de archives de
+  *:publishing-directory* - el path relativo de archives de
   base-directory sera movido, a esta directorio, mantiendo su ruta
   relativa.
 
-  :with-toc - si quieres anadir una tabla de contenido a los archivos exportados
+  *:with-toc* - si quieres anadir una tabla de contenido a los archivos exportados
 
-  :html-postamble - si quieres anadir su propio pie de pagina
+  *:html-postamble* - si quieres anadir su propio pie de pagina
 
   #+begin_src emacs-lisp :results code
    ("falla-conmigo-github"
