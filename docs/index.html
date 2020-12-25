@@ -20,11 +20,25 @@
       <p>He encontrado un terminal que parece uno de lost setenta. Se llama <a href="https://github.com/Swordfish90/cool-retro-term">cool-retro-term</a>. Y voy a usarlo en mi
 	screencasts. Ya lo he installado y configurado.</p>
       <p>Cuándo estaba cambiando mi archivo secreto en emacs. El gpg agent dice que estaba guardando mi password pero
-	estaba mintiendo. Descrubrí que necesitaba crear mi propia clave, en vez de lo creado por emacs.
-	<ul>
-          <li><a href="https://www.emacswiki.org/emacs/EasyPG">emacswiki: EasyPG</a></li>
-          <li><a href="https://orgmode.org/worg/org-tutorials/encrypting-files.html">orgmode.org: Encrypting Files</a></li>
-	</ul>	
+	estaba mintiendo. Descrubrí que necesitaba crear mi propia clave, en vez de lo creado por emacs. Y tambíen cambiar los archivos de configuración de gpg. Para establecer el tiempo de duración de recordar la contraseña. Y decir gpg a usar use-agent.
+
+      <p>~/.gnupg/gpg-agent.conf</p>
+
+      <pre>
+	default-cache-ttl 7200
+        max-cache-ttl 7200
+      </pre>
+
+      <p>~/.gnupg/gpg.conf</p>
+
+      <pre>
+	use-agent
+      </pre>
+      
+      <ul>
+        <li><a href="https://www.emacswiki.org/emacs/EasyPG">emacswiki: EasyPG</a></li>
+        <li><a href="https://orgmode.org/worg/org-tutorials/encrypting-files.html">orgmode.org: Encrypting Files</a></li>
+      </ul>	
       </p>
       <p>Quería remover el encabezado de mi buffer de compilación. Para mi sorpresa, estaba codificado y no proporcionaba un
 	método para removerlo, cambiarlo, ni ocultarlo. Tuve que escribir código para crear una overlay para ocultarlo. No es un métedo perfecto porque tengo que esperar a que termine la compilación antes de que se pueda eliminar. También tuve que usar una cadena de búsqueda de código duro.</p>
