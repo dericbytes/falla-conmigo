@@ -13,10 +13,7 @@
 
 
 
-      Aprender:
+      Editor de texto para novatos:
 
-	  - Escribir una programa simple en c
-          - Compilarlo
-          - Correrlo
-
- 
+           - Visual Studio Code
+	   - https://code.visualstudio.com/

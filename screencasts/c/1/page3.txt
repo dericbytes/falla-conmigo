@@ -1,4 +1,4 @@
-
+  
 
 
     ______    _ _          _____                      _             
@@ -13,10 +13,11 @@
 
 
 
-      Aprender:
+      Youtube videos
 
-	  - Escribir una programa simple en c
-          - Compilarlo
-          - Correrlo
+           - Compilar Programs en C y C++ desde Visual Studio Code
+	     (en Windows) por Chochy
+	     https://www.youtube.com/watch?v=E6KCHO-MEUs
 
- 
+           - Aprender a programar en C Linux: Compilar y Ejecutar
+	     (en Linux) por WhileTrueThenDream

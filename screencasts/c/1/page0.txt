@@ -13,10 +13,7 @@
 
 
 
-      Aprender:
+      Hola! Bienvenido a Falla Conmigo.
 
-	  - Escribir una programa simple en c
-          - Compilarlo
-          - Correrlo
-
+      Un canal en lo que practico hablar en español.
  
