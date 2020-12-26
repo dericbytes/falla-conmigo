@@ -21,3 +21,4 @@
 
            - Aprender a programar en C Linux: Compilar y Ejecutar
 	     (en Linux) por WhileTrueThenDream
+	     https://youtu.be/L5KW0MugCug

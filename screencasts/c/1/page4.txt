@@ -13,10 +13,10 @@
 
 
 
-      En esta video voy a mostrar como:
+      Primero necesitamos crear un archivo de texto con
+      instructiones de c.
 
-	  - Escribir una programa simple en c
-          - Compilarlo
-          - Correrlo
-
- 
+      Puedes usar cualquier editor de texto. Si no lo hace una
+      preferencia de editor de texto. Te lo recomiendo Visual
+      Studio Code. Es gratis, facíl a usar para novatos, y
+      tiene un gran selección de ayuda en línea.
