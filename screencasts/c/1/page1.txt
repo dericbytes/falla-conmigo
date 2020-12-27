@@ -1,6 +1,4 @@
 
-
-
     ______    _ _          _____                      _             
    |  ____|  | | |        / ____|                    (_)            
    | |__ __ _| | | __ _  | |     ___  _ __  _ __ ___  _  __ _  ___  
@@ -11,11 +9,9 @@
                  SCREENCAST                            |___/       
 
 
-
-
       En esta video voy a mostrar como:
 
-	  - Escribir una programa simple en c
+	  - Escribir un programa simple en c
           - Compilarlo
           - Correrlo
 
