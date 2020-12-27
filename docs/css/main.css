@@ -84,3 +84,12 @@ pre {
     padding-right: 10px;
 }
 
+a:visited {
+  color: black;
+}
+
+
+a:hover {
+  color: pink;
+}
+
