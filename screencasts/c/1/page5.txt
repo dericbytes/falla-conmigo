@@ -1,24 +1,14 @@
-  
-
-
-    ______    _ _          _____                      _             
-   |  ____|  | | |        / ____|                    (_)            
-   | |__ __ _| | | __ _  | |     ___  _ __  _ __ ___  _  __ _  ___  
-   |  __/ _` | | |/ _` | | |    / _ \| '_ \| '_ ` _ \| |/ _` |/ _ \ 
-   | | | (_| | | | (_| | | |___| (_) | | | | | | | | | | (_| | (_) |
-   |_|  \__,_|_|_|\__,_|  \_____\___/|_| |_|_| |_| |_|_|\__, |\___/ 
-                                                        __/ |      
-                 SCREENCAST                            |___/       
 
 
 
 
-      Youtube videos
 
-           - Compilar Programs en C y C++ desde Visual Studio Code
-	     (en Windows) por Chochy
-	     https://www.youtube.com/watch?v=E6KCHO-MEUs
+   ¡Empezamos! Vamos a crear un archivo. El nombre del archivo no
+   importa. Pero si usamos la extension '.c'. Nuestro editor y otros
+   programas pueden usar la extension para anotar el tipo de archivo
+   y proporcianar un comportamiento más apropiado.
 
-           - Aprender a programar en C Linux: Compilar y Ejecutar
-	     (en Linux) por WhileTrueThenDream
-	     https://youtu.be/L5KW0MugCug
+   Por ejemplo formatear el archivo en una manera más facíl para
+   leer. O adivina unas acciones adecuadas, por ejemplo, el commando
+   'compilar' podría funcionar sin la necesidad de decir cuál tipo
+   de compilador a usar.

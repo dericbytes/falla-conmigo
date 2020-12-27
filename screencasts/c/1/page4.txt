@@ -1,12 +1,16 @@
 
 
 
+      En Youtube puedes encontrar mas videos que se trata de
+      como usar tu editor. Y configurar c en tu tipo de
+      maquina:
 
+           - Compilar Programs en C y C++ desde Visual Studio Code
+	     (en Windows) por Chochy
+	     https://www.youtube.com/watch?v=E6KCHO-MEUs
 
-      Primero necesitamos crear un archivo de texto con
-      instructiones de c.
+      Tambien hay excelente videos de C para novatos.
 
-      Puedes usar cualquier editor de texto. Si no lo hace una
-      preferencia de editor de texto. Te lo recomiendo Visual
-      Studio Code. Es gratis, facíl a usar para novatos, y
-      tiene un gran selección de ayuda en línea.
+           - Aprender a programar en C Linux: Compilar y Ejecutar
+	     (en Linux) por WhileTrueThenDream
+	     https://youtu.be/L5KW0MugCug

@@ -1,6 +1,4 @@
 
-
-
     ______    _ _          _____                      _             
    |  ____|  | | |        / ____|                    (_)            
    | |__ __ _| | | __ _  | |     ___  _ __  _ __ ___  _  __ _  ___  
@@ -10,9 +8,7 @@
                                                         __/ |      
                  SCREENCAST                            |___/       
 
-
-
-
+  
       Hola! Bienvenido a Falla Conmigo.
 
       Un canal en lo que practico hablar en español.

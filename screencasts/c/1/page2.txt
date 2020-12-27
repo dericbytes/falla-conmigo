@@ -4,8 +4,10 @@
 
 
 
+      Primero necesitamos crear un archivo de texto con
+      instructiones de c.
 
-      Editor de texto para novatos:
-
-           - Visual Studio Code
-	   - https://code.visualstudio.com/
+      Puedes usar cualquier editor de texto. Si no lo hace una
+      preferencia, te lo recomiendo Visual Studio Code. Es
+      gratis, facíl a usar para novatos, y tiene un gran
+      selección de ayuda en línea.
