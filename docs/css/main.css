@@ -85,11 +85,11 @@ pre {
 }
 
 a:visited {
-  color: black;
+  color: #002E8B;
 }
 
 
 a:hover {
-  color: pink;
+  color: blue;
 }
 
