@@ -1,0 +1,21 @@
+
+
+
+
+     El texto de modeline es controlado por el variable
+
+           ~mode-line-format~
+
+
+     Si quieres obtener el defacto valor. Puedes correr
+     este linea de codigo.
+
+      ~(custom-reevaluate-setting 'mode-line-format)~
+
+
+      Y en mi maquina su valor es...
+
+
+
+  
+      

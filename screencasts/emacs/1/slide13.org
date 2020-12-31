@@ -1,0 +1,16 @@
+
+
+   Contar la lineas cada vez que algo cambia en el buffer
+   cuesta mucho.
+
+   Y hay un opcion para no mostrar el número de líneas para
+   archives con más de tu preferida número de lineas.
+
+   Asi, siempre se muestra el recuento de líneas
+
+       (setq line-number-display-limit nil)
+
+   Y asi, no muestre el recuento de líneas si el archivo
+   tiene más de un billion lineas.
+
+        (setq line-number-display-limit 1000000000000)

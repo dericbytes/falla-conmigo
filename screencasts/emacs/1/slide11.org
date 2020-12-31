@@ -1,0 +1,17 @@
+
+   Puedes mostrar the linea y columna sin usar
+    `mode-line-position'
+
+        (setq mode-line-format
+            (list
+              " Está a la línea "
+              "%l"
+              " en la columna "
+              "%c"))
+
+
+   Pero entonces los siguientes comandos no funcionan
+
+        M-x column-number-mode
+        M-x line-number-mode
+        M-x size-indication-mode

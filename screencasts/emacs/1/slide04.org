@@ -1,0 +1,15 @@
+
+
+
+    Tenga en cuenta que contiene la variable
+
+        `mode-line-position'
+	    
+   
+    Que se encarga de mostrar una de las siguientes etiquetas
+    que indica donde te encuentras en el documento.
+
+       Top   -   en el parte superior
+       Bot   -   en el parte inferior (bottom)
+       All   -   todo el archivo es visible
+       %33   -   o en que porcentaje del documento estás.

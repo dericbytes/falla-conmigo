@@ -1,0 +1,20 @@
+
+ Otro truco para `mode-line-position'. Es podemos cambiar
+ si la columna epieza de 0 or 1.
+
+ Nota que la siguiente variable está de deuso. No debe ser fijado.
+
+     (setq column-number-indicator-zero-based nil)
+
+ Usa %c para 0 y %C por 1 en los variables de formato.
+
+     (column-number-mode)
+      
+     (setq mode-line-position-column-line-format
+	                        '(" ZERO COL: %c LIN: %l"))
+
+     (setq mode-line-position-column-line-format
+	                        '(" ONE COL: %C LIN: %l"))
+
+ 
+     

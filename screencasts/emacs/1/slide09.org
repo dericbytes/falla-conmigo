@@ -1,0 +1,17 @@
+
+
+
+    Y si muesta la linea y no la columna
+    
+       (column-number-mode -1)
+       (line-number-mode 1)
+
+
+    Su formato se toma de otro variable. Que tambien
+    podemos utiliza para personalizar como se presneta.
+    
+       (setq mode-line-position-line-format
+                             '(" %l <-- aqui is la linea"))
+    
+       (force-mode-line-update)
+       

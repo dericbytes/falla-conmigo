@@ -1,0 +1,18 @@
+  
+   Para hacer un prueba. Vamos a desactivar estos modos
+   
+       (column-number-mode -1)
+       (line-number-mode -1)
+       (size-indication-mode -1)
+   
+   Puedes ver que ahora solo tenemos el indicador de position.
+   en la modeline. Podermos anadir el numero de la columna
+   
+       (column-number-mode 1)
+   
+   Y cambiar su formato
+   
+       (setq mode-line-position-column-format
+                                '(" Columna es %c"))
+       (force-mode-line-update)
+   
