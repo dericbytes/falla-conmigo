@@ -1,18 +1,24 @@
   
-   Para hacer un prueba. Vamos a desactivar estos modos
+    Para hacer un prueba. Vamos a desactivar estos modos
    
+    #+begin_src emacs-lisp :results code
        (column-number-mode -1)
        (line-number-mode -1)
        (size-indication-mode -1)
+    #+end_src
    
    Puedes ver que ahora solo tenemos el indicador de position.
    en la modeline. Podermos anadir el numero de la columna
    
+   #+begin_src emacs-lisp :results code
        (column-number-mode 1)
+   #+end_src
    
    Y cambiar su formato
    
-       (setq mode-line-position-column-format
-                                '(" Columna es %c"))
-       (force-mode-line-update)
-   
+   #+begin_src emacs-lisp :results code
+   (setq mode-line-position-column-format
+                                   '(" Columna es %c"))
+          (force-mode-line-update)
+   #+end_src
+

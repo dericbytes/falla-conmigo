@@ -2,15 +2,16 @@
    Puedes mostrar the linea y columna sin usar
     `mode-line-position'
 
-        (setq mode-line-format
+   #+begin_src emacs-lisp :results code
+      (setq mode-line-format
             (list
               " Está a la línea "
               "%l"
               " en la columna "
               "%c"))
+   #+end_src
 
-
-   Pero entonces los siguientes comandos no funcionan
+  Pero entonces los siguientes comandos no funcionan
 
         M-x column-number-mode
         M-x line-number-mode

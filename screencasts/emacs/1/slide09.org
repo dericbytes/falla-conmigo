@@ -3,15 +3,18 @@
 
     Y si muesta la linea y no la columna
     
+    #+begin_src emacs-lisp :results code
        (column-number-mode -1)
        (line-number-mode 1)
-
+    #+end_src
 
     Su formato se toma de otro variable. Que tambien
     podemos utiliza para personalizar como se presneta.
     
-       (setq mode-line-position-line-format
-                             '(" %l <-- aqui is la linea"))
-    
-       (force-mode-line-update)
-       
+    #+begin_src emacs-lisp :results code
+     (setq mode-line-position-line-format
+                                  '(" %l <-- aqui is la linea"))
+         
+            (force-mode-line-update)
+    #+end_src
+   

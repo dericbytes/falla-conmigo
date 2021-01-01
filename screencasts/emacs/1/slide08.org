@@ -3,16 +3,19 @@
 
     Sin embargo, si muestra la columna y la línea
     
+    #+begin_src emacs-lisp :results code
        (column-number-mode 1)
        (line-number-mode 1)
-
+    #+end_src
 
     Lo usa una variable diferente para el formato. Y
     podemos cambiar esto tambien a nuestro preferencia.
     
-       (setq mode-line-position-column-line-format
-                               '(" LINEA:%l Y COLUMNA:%c"))
+    #+begin_src emacs-lisp :results code
+    (setq mode-line-position-column-line-format
+                                   '(" LINEA:%l Y COLUMNA:%c"))
 
-       (force-mode-line-update)
+           (force-mode-line-update)
+    #+end_src
 
   

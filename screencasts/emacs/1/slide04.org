@@ -1,15 +1,15 @@
 
 
 
-    Tenga en cuenta que contiene la variable
+  Tenga en cuenta que contiene la variable
 
-        `mode-line-position'
+      `mode-line-position'
 	    
-   
-    Que se encarga de mostrar una de las siguientes etiquetas
-    que indica donde te encuentras en el documento.
+ 
+  Se encarga de mostrar una de las siguientes etiquetas
+  que indica donde te encuentras en el documento.
 
-       Top   -   en el parte superior
-       Bot   -   en el parte inferior (bottom)
-       All   -   todo el archivo es visible
-       %33   -   o en que porcentaje del documento estás.
+     Top   -   en el parte más superior (top - arriba)
+     Bot   -   en el parte más inferior (bottom - abajo)
+     All   -   todo el archivo es visible
+     %33   -   o jel porcentaje del documento que está arriba

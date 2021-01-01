@@ -7,12 +7,11 @@
        UN SCREENCAST EN LO QUE PRACTICO HABLAR ESPAÑOL  __/ |      
                                                        |___/       
 
-      En esta video voy a mostrar algunos trucos para configurar
-      el modeline de emacs. Como alternar la visibilidad: 
-
-          - del número de columna
-	  - del número de línea
-	  - del tamaño del archivo
+      En esta video voy a mostrar como alternar la visibilidad
+      del 
+          - número de columna
+	  - número de línea
+	  - tamaño del archivo
 	  
       y como formatearlos
   
