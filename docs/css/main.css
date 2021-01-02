@@ -23,6 +23,7 @@ h1 {
     border-bottom-left-radius: 5px;
     border-width: 2px;
     border-color: #ddd;
+    max-width: 800px;
 }
 
 .div.outline-N {
