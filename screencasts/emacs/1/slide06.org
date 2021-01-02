@@ -3,7 +3,7 @@
   Vamos a creer un modeline personalizada y sobrescribir
   lo predeterminado.
 
-  #+begin_src emacs-lisp :results code
+  #+begin_src emacs-lisp :results silent
     (setq-default mode-line-format
      (list
        " mode-line-position se ve asi  --> "
@@ -14,7 +14,7 @@
   pero no cambiará valores ya fijado en un buffer. Pero es facíl
   resetear el modeline en el buffer actual, con el nuevo defacto.
 
-  #+begin_src emacs-lisp :results code
+  #+begin_src emacs-lisp :results silent
      (setq mode-line-format
         (default-value 'mode-line-format))
   #+end_src

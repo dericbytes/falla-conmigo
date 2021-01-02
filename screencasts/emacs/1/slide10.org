@@ -1,17 +1,17 @@
 
- Otro truco para `mode-line-position'. Es podemos cambiar
+ Otro truco de `mode-line-position' es que podemos cambiar
  si la columna epieza de 0 or 1.
 
  Nota que la siguiente variable está de deuso. No debe ser fijado.
 
- #+begin_src emacs-lisp :results code  
+ #+begin_src emacs-lisp :results silent  
       (setq column-number-indicator-zero-based nil)
  #+end_src
  
  Usa %c para 0 y %C por 1 en los variables de formato.
 
- #+begin_src emacs-lisp :results code
- (column-number-mode)
+ #+begin_src emacs-lisp :results silent
+      (column-number-mode)
        
       (setq mode-line-position-column-line-format
  	                        '(" ZERO COL: %c LIN: %l"))

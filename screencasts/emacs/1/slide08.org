@@ -1,21 +1,21 @@
 
 
 
-    Sin embargo, si muestra la columna y la línea
+    Sin embargo, si mostramos tranto la línea como la columna
     
-    #+begin_src emacs-lisp :results code
+    #+begin_src emacs-lisp :results silent
        (column-number-mode 1)
        (line-number-mode 1)
     #+end_src
 
-    Lo usa una variable diferente para el formato. Y
-    podemos cambiar esto tambien a nuestro preferencia.
+    El modeline va a usar una variable diferente para el formato.
+    Podemos cambiar este variable tambien a nuestro preferencia.
     
-    #+begin_src emacs-lisp :results code
+    #+begin_src emacs-lisp :results silent
     (setq mode-line-position-column-line-format
                                    '(" LINEA:%l Y COLUMNA:%c"))
 
-           (force-mode-line-update)
+    (force-mode-line-update)
     #+end_src
 
   

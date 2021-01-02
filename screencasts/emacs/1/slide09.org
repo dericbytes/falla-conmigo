@@ -1,20 +1,20 @@
 
 
 
-    Y si muesta la linea y no la columna
+    Y si mostramos la linea y no la columna
     
-    #+begin_src emacs-lisp :results code
+    #+begin_src emacs-lisp :results silent
        (column-number-mode -1)
        (line-number-mode 1)
     #+end_src
 
-    Su formato se toma de otro variable. Que tambien
-    podemos utiliza para personalizar como se presneta.
+    Su formato se toma de otra variable. Que tambien
+    podemos utiliza para personalizarlo com queramos.
     
-    #+begin_src emacs-lisp :results code
+    #+begin_src emacs-lisp :results silent
      (setq mode-line-position-line-format
                                   '(" %l <-- aqui is la linea"))
          
-            (force-mode-line-update)
+      (force-mode-line-update)
     #+end_src
    

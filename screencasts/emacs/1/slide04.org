@@ -1,15 +1,14 @@
 
 
 
-  Tenga en cuenta que contiene la variable
-
       `mode-line-position'
 	    
  
-  Se encarga de mostrar una de las siguientes etiquetas
-  que indica donde te encuentras en el documento.
+  Se encarga de mostrar en el modeline una de las 
+  siguientes etiquetas que indica donde te encuentras
+  en el documento.
 
      Top   -   en el parte más superior (top - arriba)
      Bot   -   en el parte más inferior (bottom - abajo)
-     All   -   todo el archivo es visible
-     %33   -   o jel porcentaje del documento que está arriba
+     All   -   que se puede ver todo el documento
+     %33   -   cuanto documento hay por encima

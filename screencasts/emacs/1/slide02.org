@@ -13,7 +13,7 @@
       ~(custom-reevaluate-setting 'mode-line-format)~
 
 
-      Y en mi maquina su valor es...
+      En mi maquina tiene este valor...
 
 
 

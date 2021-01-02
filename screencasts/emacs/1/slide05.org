@@ -8,8 +8,8 @@
         También esta opción muesta más informatión dependiendo
 	de si están activados ciertos modos.
  
-            M-x column-mode
-            M-x line-number-mode
-            M-x size-indication-mode
+            M-x ~column-mode~
+            M-x ~line-number-mode~
+            M-x ~size-indication-mode~
 
       

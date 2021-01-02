@@ -1,8 +1,8 @@
 
-   Puedes mostrar the linea y columna sin usar
-    `mode-line-position'
+   Puedes mostrar the linea y columna sin usar la
+   variable `mode-line-position'
 
-   #+begin_src emacs-lisp :results code
+   #+begin_src emacs-lisp :results silent
       (setq mode-line-format
             (list
               " Está a la línea "

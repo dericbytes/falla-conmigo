@@ -1,19 +1,24 @@
+     
+  Pero puede volver a agregar esa funcionalidad si lo desea.
 
-         (setq mode-line-format
-           '(" Está a la línea2 "
-            (:eval
-	           (if line-number-mode
-	                "%l" 
-	             (format "%s" "oops!")))
-            " en la columna "
-            (:eval (format "%s"
-	             (if column-number-mode
-	                  "%c"
-			(format "%s" "grrr"))))))
-			 
+       #+begin_src emacs-lisp :results silent
+        (setq mode-line-format
+	           '(" Está a la línea2 "
+	            (:eval
+		           (if line-number-mode
+		                "%l" 
+		             (format "%s" "oops!")))
+	            " en la columna "
+	            (:eval (format "%s"
+		             (if column-number-mode
+		                  "%c"
+				(format "%s" "grrr"))))))
+	#+end_src
 
-           (line-number-mode 1)
-	   (line-number-mode -1)
-	   (column-number-mode 1)
-	   (column-number-mode -1)
+       #+begin_src emacs-lisp :results silent
+    (line-number-mode 1)       (line-number-mode -1)
+    (column-number-mode 1)     (column-number-mode -1)
+       #+end_src
+
+
         
