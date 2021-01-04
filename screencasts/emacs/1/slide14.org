@@ -1,0 +1,18 @@
+
+
+    También puedes dejar de actulizar el columna si el
+    ancho de documento es demasiado grande. El valor
+    de defacto es 200.
+
+    #+begin_src emacs-lisp :results silent
+        (setq line-number-display-limit-width 200)
+
+    #+end_src
+    Puedes leer mas sobre esto en info
+
+        (info "(emacs) Mode Line")
+
+    Or en linea
+
+    www.gnu.org/software/emacs/manual/html_node/
+                               elisp/Mode-Line-Format.html

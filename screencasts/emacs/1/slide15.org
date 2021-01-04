@@ -1,0 +1,18 @@
+             
+             
+             
+                #+begin_src emacs-lisp :results code
+                ______ _        ______ _____ _   _ 
+               |  ____| |      |  ____|_   _| \ | |
+               | |__  | |      | |__    | | |  \| |
+               |  __| | |      |  __|   | | | . ` |
+               | |____| |____  | |     _| |_| |\  |
+               |______|______| |_|    |_____|_| \_|
+                                                   
+               #+end_src
+             
+               Hecho para ~Tony Aldon~ - tonyaldon.com
+               Que hace 'Inside Emacs' screencasts 
+               en youtube.
+             
+             
