@@ -1,15 +1,13 @@
-* Marte 3
+* Marte 
 
   Marte es el cuarto planeta desde el sol
 
-
-  #+begin_src emacs-lisp  -n 1
-   (defun x () 
-       (+ 3 3))
-  #+end_src
+  [[file:~/wd/falla-conmigo/docs/images/mars-2020-collecting-sample-artist-concept-pia23491.jpg]]
 
 
-  [../images/mars-2020-collecting-sample-artist-concept-pia23491.jpg]
+* ¿Qué piensas de la posibilidad de la vida en Marte?
+
+   Creo que *es muy probable que* en el futuro *tengan* una colonia allí.
 
 
 * Curiosidades de Marte
