@@ -1,0 +1,38 @@
+#+title: monkey
+#+SETUPFILE: ../templates/level-0-mythingies.org
+#+BINDx: org-export-filter-final-output-functions (my-func)
+
+
+#+BEGIN_SRC emacs-lisp :exports results :results none
+ (defun my-func (s backend info)
+   (replace-regexp-in-string "nice one" "<p>amazing dave 2</p>" s))
+#+END_SRC
+
+#+BEGIN_EXPORT html 
+   <p>hello <strong>3</strong></p>
+   
+#+END_EXPORT
+
+#+begin_src html :results code
+ <p>hello <strong>3</strong></p> 
+#+end_src
+
+#+begin_src emacs-lisp :results code
+ (defun green  ()
+   ""
+   (interactive)
+   "#00ff00")
+#+end_src
+
+*nice one* brother _ooooo_ oooo /oooo/ mmmmj
+
+* hello  :ooo:
+
+  #+begin_src emacs-lisp :results code
+   (setq org-html-container-element "main")
+  #+end_src
+
+  do not know what is up
+
+  [fn:org-manual: bla bla [[./index.org]]] 
+  [fn:publish: oh no]

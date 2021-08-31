@@ -9,6 +9,9 @@
   #+end_src
 
 
+  [../images/mars-2020-collecting-sample-artist-concept-pia23491.jpg]
+
+
 * Curiosidades de Marte
 
   - Marte tiene una atmósfera muy delgada compuesta principalmente de dióxido de carbono.

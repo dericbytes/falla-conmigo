@@ -14,6 +14,14 @@ header {
 }
 
 
+main {
+    width: 90%;
+    background-color: aliceblue;
+    margin: auto;
+}
+
+
+
 element.style {
 }
 .site-header {
@@ -396,4 +404,27 @@ h2 {
     font-family: "Open Sans",sans-serif;
     font-weight: 300;
     font-size: 40px;
+}
+h2.footnotes {
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+    margin-bottom: 0.4em;
+    margin-top: 0.4em;
+}
+.footpara {
+    width: 99%;
+    text-align: left;
+    /* background-color: firebrick; */
+    /* float: right; */
+    padding: 0;
+    margin: 0;
+}
+
+.footdef {
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    padding-left: 20px;
 }
