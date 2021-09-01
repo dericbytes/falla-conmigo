@@ -3,6 +3,7 @@
   - [[./genero.org][genero]]
   - [[~/wd/falla-conmigo/docs/org/estar-ser.org][estar/ser]]
   - [[~/wd/falla-conmigo/docs/org/por-para.org][por/para]]
+  - [[~/wd/falla-conmigo/docs/org/conjugaciones-errores.el][conjugaciones]]
 
 * Marte -  13 Aug 2021
 
