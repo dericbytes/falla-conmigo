@@ -1,7 +1,8 @@
-* Errores de genero  01 Sep 2021
+* Diaraio de mis Errores 
   
-  [[./genero.org][Diario de errores de genero]]
-
+  - [[./genero.org][genero]]
+  - [[~/wd/falla-conmigo/docs/org/estar-ser.org][estar/ser]]
+  - [[~/wd/falla-conmigo/docs/org/por-para.org][por/para]]
 
 * Marte -  13 Aug 2021
 
