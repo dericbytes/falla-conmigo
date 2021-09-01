@@ -1,11 +1,13 @@
-* Errores de genero
+* Errores de genero  01 Sep 2021
   
   [[./genero.org][Diario de errores de genero]]
 
-* Marte
+
+* Marte -  13 Aug 2021
 
  Un artículo sobre [[./test-marte.org]]
 
- 13 Aug 2021
+
+
 
 
