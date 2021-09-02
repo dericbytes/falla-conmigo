@@ -1,9 +1,13 @@
+* Nuevas palabras
+
+ - [[~/wd/falla-conmigo/docs/org/nuevas-palabras.org][Nuevas Palabras]]
+
 * Diaraio de mis Errores 
   
   - [[./genero.org][genero]]
   - [[~/wd/falla-conmigo/docs/org/estar-ser.org][estar/ser]]
   - [[~/wd/falla-conmigo/docs/org/por-para.org][por/para]]
-  - [[~/wd/falla-conmigo/docs/org/conjugaciones-errores.org][conjugaciones]]
+  - [[~/wd/falla-conmigo/docs/org/conjugaciones-errores.org][conjugaciones]]  
 
 * Marte -  13 Aug 2021
 
