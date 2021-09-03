@@ -5,7 +5,7 @@
 
 * Nuevas frases
 
-  [[~/wd/falla-conmigo/docs/org/nuevas-frases.org][Nuevas Frases]]
+ - [[~/wd/falla-conmigo/docs/org/nuevas-frases.org][Nuevas Frases]]
   
 * Diaraio de mis Errores 
   
@@ -20,4 +20,4 @@
 
 * Marte -  13 Aug 2021
 
- Un artículo sobre [[./test-marte.org]]
+ -  Un artículo sobre [[./test-marte.org][Marte]]
