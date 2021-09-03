@@ -1,10 +1,4 @@
-* equivocaciones de deletreo/ortográficos
 
-   se +confonde+ *confunde*
-
-* debajo vs bajo
-
-   Él tiene un tatuaje de una lágrima +bajo+ *debajo* de su ojo.
 
 
 * matrices de palabras.
@@ -44,5 +38,3 @@
   
 
 
-* https://albalearning.com/audiolibros/chopin/unamujer.html 
-* https://albalearning.com/audiolibros/quiroga/elalmohadon.html 

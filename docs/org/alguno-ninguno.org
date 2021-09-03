@@ -1,0 +1,7 @@
+* alguna vs ninguno
+
+     Yo conozco las adivinanzas pero no sé +alguna+ ninguna.
+     Yo conozco las adivinanzas pero solo me sé algunas. 
+
+     positivo con positivo - sé alguna
+     negativo con negativo - no sé ninguna

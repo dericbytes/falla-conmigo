@@ -1,0 +1,6 @@
+* matrices de palabras.
+** conocer vs saber
+
+   Yo conozco las adivinanzas pero no sé ninguna.
+   Yo conozco las adivinanzas pero solo me sé algunas.
+   

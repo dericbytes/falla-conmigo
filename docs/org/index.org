@@ -1,12 +1,3 @@
-* Nuevas palabras
-
- - [[~/wd/falla-conmigo/docs/org/nuevas-palabras.org][Nuevas Palabras]]
- - [[~/wd/falla-conmigo/docs/org/palabras-de-peliculas.org][Película Léxico]]
-
-* Nuevas frases
-
- - [[~/wd/falla-conmigo/docs/org/nuevas-frases.org][Nuevas Frases]]
-  
 * Diaraio de mis Errores 
   
   - [[./genero.org][genero]]
@@ -16,7 +7,26 @@
   - [[~/wd/falla-conmigo/docs/org/conjugaciones-irregular.org][conjugaciones - irregular]]
   - [[~/wd/falla-conmigo/docs/org/palabras-equivocadas.org][palabras equivocados]]
   - [[~/wd/falla-conmigo/docs/org/falsos-amigos.org][falsos amigos]]
+  - [[~/wd/falla-conmigo/docs/org/equivocaciones-ortograficos.org][errores orgográficos (de deletreo)]]
+  - [[~/wd/falla-conmigo/docs/org/bajo-debajo-errores.org][debajo vs bajo]]
  
+* Palabras
+
+ - [[~/wd/falla-conmigo/docs/org/nuevas-palabras.org][Nuevas Palabras]]
+ - [[~/wd/falla-conmigo/docs/org/palabras-de-peliculas.org][Película Léxico]]
+ - [[~/wd/falla-conmigo/docs/org/matrices-de-palabras.org][Matrices]]
+ - [[~/wd/falla-conmigo/docs/org/alguno-ninguno.org][Alguno vs Ninguno]]
+
+* Nuevas frases
+
+ - [[~/wd/falla-conmigo/docs/org/nuevas-frases.org][Nuevas Frases]]
+  
+* Adivinanzas
+
+ - [[~/wd/falla-conmigo/docs/org/adivinanzas.org][Adivinianzas]]
+* Audio Libros
+ 
+ - [[~/wd/falla-conmigo/docs/org/audio-libros.org][Audio libros]]
 
 * Marte -  13 Aug 2021
 
