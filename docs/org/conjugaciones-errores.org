@@ -1,5 +1,23 @@
 #+TITLE: conjugaciones-errores
 
+* 3 Sep 2021
+** tuvieron
+
+    +tuvieran+ tuverion
+
+** tuvistéis
+
+* siempre nota
+
+  eran amigos (excepto cuando usas siempre)
+   siempre fueron amigos (cuando usas siempre)
+
+* 2 Sep 2021
+
+ - ¿Dónde lo viste?  Esto +fui+ *fue* en la televisión.
+
+ - +Puedes+ *Puede* tener un relleno de plumas o algodón.
+   
 * 1 Sep 2021
 
   - David me +pregunté+ *preguntó* por la tarea.

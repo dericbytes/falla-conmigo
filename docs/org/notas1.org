@@ -1,40 +1,18 @@
+* articulo errores
+**  tuvo +una+ gripe
+* mejor palabras
+** articulado/a y eloquente
 
+    ella era muy +articulada+ *elocuente*
+* errores de pronombre objeto
 
+   +esto era lo culpable+ 
+   este era *el* culpable
+* tener vs haber
 
-* matrices de palabras.
-** conocer vs saber
-
-   Yo conozco las adivinanzas pero no sé ninguna.
-   Yo conozco las adivinanzas pero solo me sé algunas.
+   lo +había+ *tenía* cuando yo era jovén
    
-* alguna vs ninguno
+   +hubo+ *tuvo* un momenteo en que ella gritó
 
-     Yo conozco las adivinanzas pero no sé +alguna+ ninguna.
-     Yo conozco las adivinanzas pero solo me sé algunas. 
-
-     positivo con positivo - sé alguna
-     negativo con negativo - no sé ninguna
-* adivinanzas
-
-  oro parece,
-  plata no es, 
-  quién no la adivine,
-  bien tonto es. 
-  ¿Qué es?
-
-  respuesta: platano
-
-  ¿Cuál es el animal que
-  camina con 4 cuatro patas en su niñez,
-  dos patas en su joventud
-  y tres patas en su vejez?
-
-  respuesta: humano
-
-  De la sala a la cocina y mueve la cola como una gallina.
- 
-  la escoba  - the broom  
-
-  
 
 

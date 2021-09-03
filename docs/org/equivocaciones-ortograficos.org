@@ -1,3 +1,7 @@
 * equivocaciones de deletreo/ortográficos
 
-   se +confonde+ *confunde*
+  -  +eloquente+ *elocuente*
+  -  cosas +artisticas+ *artísticas*
+  -  se +confonde+ *confunde*
+
+

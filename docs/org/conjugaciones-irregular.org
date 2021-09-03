@@ -6,3 +6,9 @@
 ** dormir
    
   estaba +dormiendo+ *durmiendo*
+* 1 Sep 2021
+** abrir - he abierto
+
+    he +abrido+ *abrieto*
+
+    
