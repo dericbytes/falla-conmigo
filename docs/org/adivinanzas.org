@@ -1,28 +1,44 @@
 
 * Oro parce
 
+  #+begin_src example :results code
   oro parece,
   plata no es, 
   quién no la adivine,
   bien tonto es. 
   ¿Qué es?
+ #+end_src
 
-  respuesta: platano
+  #+begin_src example :results code
+  respuesta: platano 
+  #+end_src
+
 
 * Animal con patas
 
+  #+begin_src example :results code
   ¿Cuál es el animal que
   camina con 4 cuatro patas en su niñez,
   dos patas en su joventud
   y tres patas en su vejez?
+  #+end_src
 
-  respuesta: humano
+  #+begin_src example :results code
+respuesta: humano
+  #+end_src
+
 
 * mueve la cola
 
-  De la sala a la cocina y mueve la cola como una gallina.
+  #+begin_src example :results code
+ De la sala a la cocina y mueve la cola como una gallina.
+ #+end_src
+
  
-  la escoba  - the broom  
+  #+begin_src example :results code
+ la escoba  - the broom
+ #+end_src
+
 
   
 
