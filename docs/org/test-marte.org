@@ -2,7 +2,7 @@
 
   Marte es el cuarto planeta desde el sol
 
-  [[file:~/wd/falla-conmigo/docs/images/mars-2020-collecting-sample-artist-concept-pia23491.jpg]]
+  [[../images/mars-2020-collecting-sample-artist-concept-pia23491.jpg]]
 
 
 * ¿Qué piensas de la posibilidad de la vida en Marte?
