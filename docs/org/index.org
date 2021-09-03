@@ -1,13 +1,21 @@
 * Nuevas palabras
 
  - [[~/wd/falla-conmigo/docs/org/nuevas-palabras.org][Nuevas Palabras]]
+ - [[~/wd/falla-conmigo/docs/org/palabras-de-peliculas.org][Película Léxico]]
+* Nuevas frases
 
+  [[~/wd/falla-conmigo/docs/org/nuevas-frases.org][Nuevas Frases]]
+  
 * Diaraio de mis Errores 
   
   - [[./genero.org][genero]]
   - [[~/wd/falla-conmigo/docs/org/estar-ser.org][estar/ser]]
   - [[~/wd/falla-conmigo/docs/org/por-para.org][por/para]]
-  - [[~/wd/falla-conmigo/docs/org/conjugaciones-errores.org][conjugaciones]]  
+  - [[~/wd/falla-conmigo/docs/org/conjugaciones-errores.org][conjugaciones - persona]]
+  - [[~/wd/falla-conmigo/docs/org/conjugaciones-irregular.org][conjugaciones - irregular]]
+  - [[~/wd/falla-conmigo/docs/org/palabras-equivocadas.org][palabras equivocados]]
+  - [[~/wd/falla-conmigo/docs/org/falsos-amigos.org][falsos amigos]]
+ 
 
 * Marte -  13 Aug 2021
 

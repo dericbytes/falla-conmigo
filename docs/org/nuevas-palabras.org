@@ -1,20 +1,116 @@
-* 1 sep 2012
+* 2 Sep 2021
+**  derretirse - to melt
+
+  El chocolate se derrite en su país más rápido que en nuestro país.
+** arrojar - to throw
+
+   Me gusta arrojar la pelota con mi perro.
+   error: a dog can not throw a ball
+   I like to throw the ball with my dog (in a team, throwing together
+   a something)
+
+   Me gusta arrojarle la pelota a mi perro.
+   I like to throw the ball to my dog. 
+** estante - shelf
+
+   Se puede poner libros en un estante.
+** destinatario/a - recipient
+
+    El objeto indirecto es la persona (y con menos frecuencia, la
+    cosa) destinatario final de la acción del verbo.
+** fiar - trust/guarantee/confiance/loan
+
+       hoy no se fia, venga mañana
+** arrendatario - landlord
+  
+   Ayer mi arrendatario dijo que quería subir la renta porque ahora hay
+   menos personas viviendo en la casa.
+** magacín/magazín 
+
+    Un magacín es un tipo de programa en televisión, o publicación periódica,
+    que muestra reportajes, entrevistas, y actualizaciones artísticas.
+    Es realizado con regularidad.
+** informativo  
+
+    Un informativo es un tipo de programa en televisión que muesta las noticias
+** pañuelo - handkerchief
+
+   Cuando yo era chico, mi abuela siempre me compraba pañuelos para la
+   navidad. 
+** mamitero/mamitis - chico mamá - mummies boy
+
+    El chico en la película era un mamitero (una palabra de Meli).
  
-** atordar - to jam
+** alcoholímetro - breathalyzer
+
+    Él tiene que +tomar+ *utilizar* el alcoholímetro.
+    Él tiene que tomar una prueba de alcohol.
+** tararear - to hum
+
+    Me reí porque Meli estaba tarareando felizmente.
+** voltearse - turn around
+
+     se volteó - he turned his back.
+** puño - fist
+** enpuñados - make a fist/grasp
+
+   Enpuño las manos para golpearlo - He clenched the fists in order to
+   hit him. 
+
+   Tenía las manos empuñados. - He had his fists clenched.
+
+
+** empuñar - wield/grasp/grip/clutch/clench
+** chingar - fuck
+** adivinar - to guess
+
+    ¿puedes adivinar esto? - Can you guess this?
+** adivinazas - riddle
+
+    Me sé algunas adivinanzas - I know some riddles?
+
+** rabo - tail
+
+      Un rabo es la misa cosa de la cola.
+** liendres - nits 
+    Los chicos pillan liendres en las escuelas.
+** piojos - lice
+
+    A los chicos les pegan piojos en la escuela.
+
+    uno son los hijos de los otros - piojos, liendres
+** chupapollas/chupapija/mamahuevo/chupapito - cock sucker
+
+     Ese chupapito ha derramado mi bebida
+
+** derramar - to spill
+
+     Ese chupapito ha derramado mi bebida
+** sorbete - sorbet
+ 
+    Entre los platos recibimos un pitillo para limpiar el paladar.
+
+** paja/pitillo - straw
+** una morena - a brunette o dark skin woman
+
+* 1 sep 2021
+ 
+** atorar - to jam
 ** atorado - stuck
   
-   El papel está atardo
+   El papel está atorado.
 
 ** oponer - to oppose
   
-   el padre se opone a su relación con Tomás
+   El padre se opone a su relación con Tomás.
+
 ** tallo - stem
 
   La flor tiene tallo, hojas y, a veces, espinas.
 
   Quité unas hojas del tallo.
 
-** leaves - hojas
+** hojas - leaves
 
   La flor tiene tallo, hojas y, a veces, espinas.
 
@@ -23,5 +119,4 @@
 ** espinas - thornes
   
    La flor tiene tallo, hojas y, a veces, espinas.
-
 

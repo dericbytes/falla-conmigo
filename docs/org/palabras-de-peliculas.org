@@ -1,0 +1,29 @@
+* palabras de películas
+** protagonista - staring/the star/lead role
+
+    El protagonista es Michael J. Fox
+
+    La película es protagonisada por Michael J. Fox
+
+** producida - produced
+
+    La película es producida y dirigida por
+** dirigida - directed
+
+    La película es producida y dirigida por
+
+** guión - script
+
+     El guión fue escrito por
+* otras
+** traerse
+
+   La película me trajé recuerdos.
+
+** particularmente
+
+   No es una película particularmente especial. 
+
+
+
+
