@@ -1,7 +1,8 @@
 * 2 Sep 2021
 ** derretirse 
 
-  El chocolate se derrite en su país más rápido que en nuestro país.
+  El chocolate *se derrite* en su país más rápido que en nuestro país.
+
 ** dormir
    
   estaba +dormiendo+ *durmiendo*
