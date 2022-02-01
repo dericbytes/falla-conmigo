@@ -15,7 +15,6 @@
   <span class="article-entry-date">2022.02.01 15:59</span>
   #+END_EXPORT
 
-
 * Creamos nuestra primera applicación.    
 
   Visitamos [[https://reactnative.dev][la página web oficial de React Native]]. Y fuimos
