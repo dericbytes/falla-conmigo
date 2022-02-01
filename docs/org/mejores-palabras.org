@@ -1,0 +1,10 @@
+#+TITLE:  mejor palabras
+
+* articulado/a y eloquente
+
+    ella era muy +articulada+ *elocuente*
+
+
+
+
+

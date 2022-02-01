@@ -1,15 +1,21 @@
-* Diaraio de mis Errores 
+* Diario de mis Errores 
   
   - [[./genero.org][genero]]
   - [[~/wd/falla-conmigo/docs/org/estar-ser.org][estar/ser]]
   - [[~/wd/falla-conmigo/docs/org/por-para.org][por/para]]
   - [[~/wd/falla-conmigo/docs/org/conjugaciones-errores.org][conjugaciones - persona]]
   - [[~/wd/falla-conmigo/docs/org/conjugaciones-irregular.org][conjugaciones - irregular]]
-  - [[~/wd/falla-conmigo/docs/org/palabras-equivocadas.org][palabras equivocados]]
+  - [[~/wd/falla-conmigo/docs/org/palabras-equivocadas.org][las palabras equivocadas]]
   - [[~/wd/falla-conmigo/docs/org/falsos-amigos.org][falsos amigos]]
   - [[~/wd/falla-conmigo/docs/org/equivocaciones-ortograficos.org][errores orgográficos (de deletreo)]]
   - [[~/wd/falla-conmigo/docs/org/bajo-debajo-errores.org][debajo vs bajo]]
- 
+  - [[~/wd/falla-conmigo/docs/org/errores-de-articulo.org][errores de articulo]]
+  - [[~/wd/falla-conmigo/docs/org/errores-de-pronombre-ojecto.org][errores de pronombre objetivo]]
+  - [[~/wd/falla-conmigo/docs/org/tener-vs-haber.org][tener vs haber]]
+  - [[~/wd/falla-conmigo/docs/org/tomar-vs-llevar.org][tomar vs llevar]]
+  - [[~/wd/falla-conmigo/docs/org/mejores-palabras.org][mejor palabra]]
+  
+
 * Palabras
 
  - [[~/wd/falla-conmigo/docs/org/nuevas-palabras.org][Nuevas Palabras]]

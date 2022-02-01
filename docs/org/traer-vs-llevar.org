@@ -1,0 +1,5 @@
+#+TITLE:  traer vs llevar
+
+
+ traer - traes algo a un lugar donde tu estas
+ llevar - llevas algo a un lugar donde no estas
