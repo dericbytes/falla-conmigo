@@ -1,4 +1,4 @@
-* Executar applicación en móvil..
+* Executar applicación en móvil.  Grrrr
 
   Hoy ejecutamos nuestro código escrito en React Native en nuestro móvil.
 
