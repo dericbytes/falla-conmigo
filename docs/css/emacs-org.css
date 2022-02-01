@@ -181,6 +181,7 @@ textarea { overflow-x: auto; }
 
 h2 {
     color: #00008b;
+    font-weight: bolder;
 }
 
 .article-entry-date {
