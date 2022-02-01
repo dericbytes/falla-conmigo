@@ -187,8 +187,8 @@ h2 {
 .article-entry-date {
     float: right;
     width: 100%;
-    background-color: green;
-    color: grey;
+    /* background-color: green; */
+    color: orange;
 }
 
 .outline-text-2 {
