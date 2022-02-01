@@ -1,4 +1,4 @@
-* Ejecutamos una aplicación en un móvil.
+* Ejecutamos una aplicación en un móvil..
 
   En nuestro Android móvil, instalamos 'Expo Project' app desde
   Android 'Play' tienda. 
