@@ -7,7 +7,7 @@
   #+END_EXPORT
 
 
-* Creamos nuestra primera applicación    
+* Creamos nuestra primera applicación.    
 
   Visitamos [[https://reactnative.dev][la página web oficial de React Native]]. Y fuimos
   directamente al artículo [[https://reactnative.dev/docs/getting-started][Getting Started]].
@@ -24,7 +24,4 @@
   <div><span class="article-entry-date">2022.02.01 15:56</span></div>
   #+END_EXPORT
 
-
-
-
-
+  
