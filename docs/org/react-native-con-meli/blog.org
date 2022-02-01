@@ -1,4 +1,4 @@
-* Ejecutar una aplicación en un móvil.
+* Ejecutamos una aplicación en un móvil.
 
   En nuestro Android móvil, instalamos 'Expo Project' app desde
   Android 'Play' tienda. 
@@ -12,7 +12,7 @@
   ¡Lo funcionó!
 
   #+BEGIN_EXPORT html
-  <span class="article-entry-date">2022.02.01 15:59</span>
+  <div class="article-entry-date"><span class="article-entry-date">2022.02.01 15:59</span></div>
   #+END_EXPORT
 
 * Creamos nuestra primera applicación.    
@@ -29,7 +29,5 @@
   real. ¡Qué guay!
 
   #+BEGIN_EXPORT html
-  <div><span class="article-entry-date">2022.02.01 15:56</span></div>
+  <div class="article-entry-date"><span class="article-entry-date">2022.02.01 15:56</span></div>
   #+END_EXPORT
-
-  
