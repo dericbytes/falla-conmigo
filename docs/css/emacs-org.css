@@ -184,6 +184,8 @@ h2 {
 }
 
 .article-entry-date {
+    width: 100%;
+    background-color: green;
     align: right;
     color: grey;
 }
