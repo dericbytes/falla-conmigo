@@ -185,12 +185,16 @@ h2 {
 }
 
 .article-entry-date {
+    float: right 
     width: 100%;
     background-color: green;
-    align: right;
     color: grey;
 }
 
 .outline-text-2 {
-    background-color: red;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: white;
+    border: 1px #eee solid;
+    border-radius: 10px;    
 }

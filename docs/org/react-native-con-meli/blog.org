@@ -1,7 +1,7 @@
-* Ejecutar una aplicación en un móvil.
+* Ejecutar una aplicación en un móvil. 
 
-  Instalamos 'Expo Project' app desde Android 'Play' tienda a nuestro
-  móvil.
+  En nuestro Android móvil, instalamos 'Expo Project' app desde
+  Android 'Play' tienda. 
 
   Usando el 'Snack Player' herramienta can contiene el código de
   ejemplo 'Hello Mundo' que hemos editado. Generamos un QR código.
