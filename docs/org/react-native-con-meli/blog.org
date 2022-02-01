@@ -1,3 +1,6 @@
+* todo
+  algo
+
 * Creemos nuestro primera applicación y lo executamos en nuestro móvil.
 
 Hoy ejecutamos nuestro código escrito en React Native en nuestro móvil.
