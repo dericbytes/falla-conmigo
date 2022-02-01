@@ -1,6 +1,30 @@
-* todo
-  algo
+* Executamos nuestra applicación en móvil.
 
-* Creemos nuestro primera applicación y lo executamos en nuestro móvil.
+  Hoy ejecutamos nuestro código escrito en React Native en nuestro móvil.
 
-Hoy ejecutamos nuestro código escrito en React Native en nuestro móvil.
+  #+BEGIN_EXPORT html
+  <span class="article-entry-date">2022.02.01 15:59</span>
+  #+END_EXPORT
+
+
+* Creamos nuestra primera applicación    
+
+  Visitamos [[https://reactnative.dev][la página web oficial de React Native]]. Y fuimos
+  directamente al artículo [[https://reactnative.dev/docs/getting-started][Getting Started]].
+  
+  Allí puedes usar un herramienta integrado en la página web, llamado
+  'Snack Player' para escribir código en React Native y ver los
+  resultados. 
+
+  Cambiamos el texto en el ejemplo 'Hello World' desde 'Try editing
+  me!' a 'Hola Saki'. Puedes ver sus cambios renderizados en tiempo
+  real. ¡Qué guay!
+
+  #+BEGIN_EXPORT html
+  <div><span class="article-entry-date">2022.02.01 15:56</span></div>
+  #+END_EXPORT
+
+
+
+
+
