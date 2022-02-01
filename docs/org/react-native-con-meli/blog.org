@@ -1,6 +1,15 @@
-* Executar applicación en móvil.  Grrrr
+* Executar applicación en móvil.
 
-  Hoy ejecutamos nuestro código escrito en React Native en nuestro móvil.
+  Instalamos 'Expo Project' app desde Android 'Play' tienda a nuestro
+  móvil.
+
+  Usando el 'Snack Player' herramienta can contiene el código de
+  ejemplo 'Hello Mundo' que hemos editado. Generamos un QR código.
+
+  En el 'Expo Project' app puedes scaniar este código para transferir
+  nuestro código a nuestro móvil.
+
+  ¡Lo funcionó!
 
   #+BEGIN_EXPORT html
   <span class="article-entry-date">2022.02.01 15:59</span>

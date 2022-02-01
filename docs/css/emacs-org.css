@@ -178,6 +178,16 @@ textarea { overflow-x: auto; }
 .org-info-js_search-highlight
 { background-color: #ffff00; color: #000000; font-weight: bold; }
 .org-svg { width: 90%; }
+
 h2 {
-    color: green;
+    color: #00008b;
+}
+
+.article-entry-date {
+    align: right;
+    color: grey;
+}
+
+.outline-text-2 {
+    background-color: red;
 }
