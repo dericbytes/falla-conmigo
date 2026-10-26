@@ -1,3 +1,3 @@
 <div>
-<h2>Aprender React Native</h2>
+<h2>Ofrebrero</h2>
 </div>

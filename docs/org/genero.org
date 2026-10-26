@@ -1,28 +1,143 @@
-* 4 Sep 2021
-
- - un radio (radius)
- - un radio (elemento químico)
- - +un+ *una* radio (transistor)
- - +una+ *una* sofá
- - +un+ *una* sartén
- - las palabras +equivocados+ *equivocadas*
-
-* 3 Sep 2021
-
- - Qué niño tan juicioso que hace +todo+ *toda* su tarea.
- - +los+ *las* noticias
- - +un+ *una* palabra
- - +una+ *un* tatuaje
- - empuño +los+ *las* manos para golpearse
-   
-* 2 Sep 2021
-
-  - +un+ *una* imagen
-  - +un+ *una* pareja enamorada
-  - +un+ *un* una almohada +antialégico+ *antialégica*
-  - +un+ *una* gripe
-    
-* 1 Sep 2021
-
-  - +una+ *un* programa
-  - *Ana* ahora es muy +simpático+ *simpática*
+the dog, el perro, m
+the dog, la perra, f
+the cat, el gato, m
+the cat, la gata, f
+the bear, el oso, m
+the bear, la osa, f
+the wolf, el lobo, m
+the wolf, la loba, f
+the pig, el cerdo, m
+the pig, la cerda, f
+the elephant, el elefante, m
+the elephant, la elefanta, f
+the lion, el león, m
+the lion, la leona, f
+the monkey, el mono, m
+the monkey, la mona, f
+the rooster (male chicken), el gallo, m
+the hen (female chicken), la galina, f
+the bull (male cow), el toro, m
+the cow, la vaca, f
+the ram (male sheep),el carnero, m
+the sheep, la oveja, f
+the horse, el caballo, m
+the mare (female horse), la yegua, f
+the kangaroo,el canguro macho, m
+the kangaroo,<b>el</b> canguro hembra, f
+the crocodile, el cocodrilo macho, m
+the crocodile, <b>el</b> cocodrilo hembra, f
+the gorilla,el gorila macho, m
+the gorilla,<b>el</b> gorila hembra, f
+the ostrich,el avestruz macho,m
+the ostrich,<b>el</b> avestruz hembra,f
+the snail,el caracol macho,m
+the snail,<b>el</b> caracol hembra,f
+the giraffe,<b>la</b> jirafa macho,m
+the giraffe,la jirafa hembra,f
+the tortoise,<b>la</b> tortuga macho,m
+the tortoise,la tortuga hembra,f
+the butterfly,<b>la</b> mariposa macho,m
+the butterfly,la mariposa hembra,f
+the hare,<b>la</b> liebre macho,m
+the hare,la liebre hermbra,f
+the snake, <b>la</b> serpiente macho,m
+the snake, la serpiente hembra,f
+Look mum! A lady kangaroo, Un canguro hembra,f
+What is the baby girl called, ¿Cómo se llama <b>él</b> bebé?,f
+What is the baby boy called, ¿Cómo se llama él bebé?,m
+Robert is an excellent person, Roberto es <b>una</b> persona excelente,m
+María is an excellent person, María es una persona excelente,f
+Robert is a genius, Roberto es <b>una</b> genio,m
+María es a genius, María es una genio,f
+Marie Antoinette has been the most slandered female character in history, María Antonieta ha sido <b>el</b> personaje femenino más calumniado de la historia, f
+That many already see in the character of Josep Marsá,Que muchos vean ya en el personaje de Josep Marsá,m
+Robert is the victim, Roberto es <b>la</b> víctima,m
+Mary is the victim, María es la víctima,f
+Robert is the star (artist), Roberto es <b>la</b> estrella (artista),m
+Mary is the star (artist), María es la estrella (artista),f
+The ghost is called Casper, <b>El</b> fantasma se llama Casper,m
+I think my mum had a gentleman caller, Creo que mi madre tiene *una* visita masculina, m
+the medic,la médic<b>o</b><br><br>la médica,f
+the medic,el médico,m
+the minister,el ministro,m
+the minister,la ministr<b>o</b><br><br>la ministra,f
+the judge,el juez,m
+the judge,la <b>juez</b><br><br>la juez<b>a</b>,f
+the boss,el jefe,m
+the boss,la jef<b>e</b><br><br>la jefa,f
+the guide, el guía, m
+the guidebook, la guía, h
+a policeman, un policía,m
+the policeman, el policía,m
+the police, la policía,
+a policewoman, una mujer policía,f
+the colleague, el colega,m
+the colleague, la colega,f
+the athlete,el atleta,m
+the athlete,la atleta,f
+the father,el padre,m
+the mother,el madre,f
+the dad,el papá,m
+the mum,el mamá,f
+el hombre,el hombre,m
+the woman,la mujer,f
+the son-in-law,el yerno,m
+the daughter-in-law,la nuera,f
+the young man,el joven,m
+the yound woman,la joven,f
+the singer,el cantante,m
+the singer,la cantante,f
+the reporter,el periodista,m
+the reporter,la periodista,f
+the director,el director,m
+the director,la director<b>a</b>,f
+the theif,el ladrón,m
+the theif,la ladrón,f
+the pilot,el piloto,m
+the pilot,la piloto,f
+the model,el modelo,m
+the model,la modelo,f
+the soldier,el soldado,m
+the soldier,la soldado,f
+the witness,el testigo,m
+the witness,la testig<b>o</b>,f
+the detective,el detective,m
+the detective,la detective,f
+the patient,el paciente,m
+the patient,la paciente,f
+the assitent (!asistente),el ayudante,m
+the assitent (!asistente),la ayudante,f
+the kid,el niño,m
+the kid,la niña,f
+the lawyer,el abodgado,m
+the lawyer,la abodgada,f
+the husband,el esposo,m
+the husband,la esposa,f
+the client,el cliente,m
+the client,la clienta,f
+the actor,el actor,m
+the actor,la actriz,f
+the arquitect,el arquitecto,m
+the arquitect,la arquitecta,f
+the seller, el vendador,m
+the seller, la vendador<b>a</b>,f
+the champion,el campe<b>ó</b>n,m
+the champion,el campe<b>o</b>n<b>a</b>,f
+the novelist,el novelist<b>a</b>,m
+the novelist,la novelista,f
+the president,el presidente,m
+the president,la president<b>a</b>,f
+the girlfriend,la novia,f
+the boyfriend,el novio,m
+the nurse,el enfermero,m
+the nurse,la enfermera,f
+the collector,el coleccionist<b>a</b>,m
+the collector,la coleccionista,f
+the brother,el hermano,m
+the sister,la hermana,f
+the shop assistent,el dependiente,m
+the shop assistent,la dependiente,f
+the cook,el cocinero,m
+the cook,la cocinera,f
+the monk,el monje,m
+the nun,la monja,f
