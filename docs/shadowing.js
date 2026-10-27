@@ -6,6 +6,10 @@ const WASM_URL =
   "https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/";
 
 const audio = document.getElementById("audio");
+// const volume = document.getElementById('volume');
+// const volumeValue = document.getElementById('volume-value');
+const startAButton = document.getElementById('markA');
+const startBButton = document.getElementById('markB');
 const $ = id => document.getElementById(id);
 
 let tracks = [];
@@ -29,8 +33,8 @@ function timeText(seconds) {
   const r = s % 60;
 
   return h
-    ? `${h}:${String(m).padStart(2, "0")}:${String(r).padStart(2, "0")}`
-    : `${String(m).padStart(2, "0")}:${String(r).padStart(2, "0")}`;
+       ? `${h}:${String(m).padStart(2, "0")}:${String(r).padStart(2, "0")}`
+       : `${String(m).padStart(2, "0")}:${String(r).padStart(2, "0")}`;
 }
 
 function setStatus(message) {
@@ -133,6 +137,22 @@ function renderPlaylist() {
     button.append(title, info);
     button.addEventListener("click", () => selectTrack(index));
 
+
+    // volume.addEventListener('input', () => {
+    //   audio.volume = Number(volume.value);
+    //   volumeValue.textContent =
+    //     `${Math.round(audio.volume * 100)}%`;
+    // });
+    // 
+
+    // startAButton.addEventListener('click', () => {
+    //   startAButton.classList.add('active');
+    // });
+    // 
+    // startBButton.addEventListener('click', () => {
+    //   startBButton.classList.add('active');
+    // });
+    // 
     list.appendChild(button);
   });
 
@@ -235,15 +255,23 @@ $("speed").addEventListener("change", () => {
   audio.playbackRate = Number($("speed").value);
 });
 
-$("markA").addEventListener("click", () => {
+function setClassActive(obj, active) {
+  if (active)  {
+    obj.classList.add('active')
+  } else {
+    obj.classList.remove('active')
+  }
+}
+
+startAButton.addEventListener("click", () => {
   A = audio.currentTime;
 
   if (B !== null && B <= A) B = null;
-
+  setClassActive(startAButton, A);
   updateMarks();
 });
 
-$("markB").addEventListener("click", () => {
+startBButton.addEventListener("click", () => {
   if (A === null || audio.currentTime <= A) {
     B = null;
     setPracticeStatus("Set start A before setting end B.");
@@ -251,8 +279,9 @@ $("markB").addEventListener("click", () => {
     B = audio.currentTime;
     setPracticeStatus("");
   }
-
+  setClassActive(startBButton, B);
   updateMarks();
+  
 });
 
 $("loop").addEventListener("click", () => {
@@ -315,7 +344,7 @@ audio.addEventListener("timeupdate", () => {
       seekTo(A);
       setPracticeStatus(
         `Repetition ${completed + 1}` +
-        (targetRepeats === 0 ? "" : ` of ${targetRepeats}`)
+         (targetRepeats === 0 ? "" : ` of ${targetRepeats}`)
       );
     }
   } else if (looping && !repeating && audio.currentTime >= B) {
