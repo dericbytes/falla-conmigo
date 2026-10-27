@@ -251,8 +251,8 @@ $("forward").addEventListener("click", () => {
   seekTo(audio.currentTime + 5);
 });
 
-    next.addEventListener("next", () => selectNextTrack());
-    previous.addEventListener("previous", () => selectPreviousTrack();
+nextButton.addEventListener("next", () => selectNextTrack());
+previousButton.addEventListener("previous", () => selectPreviousTrack());
 
 
 $("replay").addEventListener("click", () => {
@@ -358,7 +358,7 @@ audio.addEventListener("timeupdate", () => {
       seekTo(A);
       setPracticeStatus(
         `Repetition ${completed + 1}` +
-         (targetRepeats === 0 ? "" : ` of ${targetRepeats}`)
+           (targetRepeats === 0 ? "" : ` of ${targetRepeats}`)
       );
     }
   } else if (looping && !repeating && audio.currentTime >= B) {
