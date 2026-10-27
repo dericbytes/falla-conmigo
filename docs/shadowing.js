@@ -167,14 +167,6 @@ function updateActiveTrack() {
   });
 }
 
-function selectNextTrack() {
-  selectTrack(activeTrack + 1);
-}
-
-function selectPreviousTrack() {
-  selectTrack(activeTrack - 1);
-}
-
 function selectTrack(index) {
   const track = tracks[index];
   if (!track) return;
@@ -202,6 +194,14 @@ function selectTrack(index) {
 
   updateActiveTrack();
   updatePlayer();
+}
+
+function selectNextTrack() {
+  selectTrack(activeTrack + 1);
+}
+
+function selectPreviousTrack() {
+  selectTrack(activeTrack - 1);
 }
 
 function seekTo(seconds) {
