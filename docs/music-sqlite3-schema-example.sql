@@ -13,7 +13,6 @@ CREATE TABLE tracks (
 
 -- Insert some sample open-source music clips
 INSERT INTO tracks (title, artist, genre, duration, audio_url) VALUES 
-('Lo-Fi Chill Sunset', 'Acoustic Labs', 'Lo-Fi', '0:45', 'https://r2.dev'),
-('Synthwave Horizon', 'Neon Rider', 'Electronic', '1:12', 'https://r2.dev'),
-('Ofrebrero', 'dericbytes', 'podcast', '1:12', 'audio/ofrebrería.mp3'),
-('Cinematic Piano Intro', 'Elena Rostova', 'Classical', '0:30', 'https://r2.dev');
+('Ofrebrero', 'deric', 'day 1', '1:12', 'audio/ofrebrería.mp3'),
+('Not Here', 'deric', 'day 1', '1:12', 'audio/not-here.mp3');
+
