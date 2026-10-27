@@ -21,16 +21,16 @@
     
     <div id="music-list"></div>
 
-    <!-- Load the official SQLite3 WASM script from CDN -->
-  <!--     <script src="https://cloudflare.com"></script> -->
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/sql-wasm.js"></script>
     
     <script>
         async function initDatabase() {
             try {
                 // 1. Initialize sql.js library
-                const config = { locateFile: filename => <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/sql-wasm.js"></script> };
+                const config = {
+        locateFile: file =>
+            `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/${file}`
+    }
                 const SQL = await initSqlJs(config);
 
                 // 2. Fetch your music.db file from GitHub repository
