@@ -4,6 +4,7 @@
 <ul>
 <li><a href="ofrebrero-erizo.html">El ofrebrero erizo</a></li>
 <li><a href="sqlite-example.html">sqlite example</a></li>
+<li><a href="shadowing2.html">shadowing2 sqlite example</a></li>
 </ul>
 </p>
 </div>
