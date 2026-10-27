@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Source Music Clips</title>
+    <style>
+        body { font-family: system-ui, sans-serif; background: #121212; color: #fff; max-width: 800px; margin: 40px auto; padding: 0 20px; }
+        h1 { border-bottom: 2px solid #333; padding-bottom: 10px; }
+        .track-card { background: #1e1e1e; padding: 20px; border-radius: 8px; margin-bottom: 15px; display: flex; justify-content: space-between; align-items: center; }
+        .track-info h3 { margin: 0 0 5px 0; }
+        .track-info p { margin: 0; color: #aaa; font-size: 0.9rem; }
+        audio { margin-top: 10px; display: block; }
+        #status { color: #00ffcc; font-style: italic; }
+    </style>
+</head>
+<body>
+
+    <h1>Free Open-Source Music Clips</h1>
+    <p id="status">Loading SQLite database from repository...</p>
+    
+    <div id="music-list"></div>
+
+    <!-- Load the official SQLite3 WASM script from CDN -->
+    <script src="https://cloudflare.com"></script>
+
+    <script>
+        async function initDatabase() {
+            try {
+                // 1. Initialize sql.js library
+                const config = { locateFile: filename => `https://cloudflare.com{filename}` };
+                const SQL = await initSqlJs(config);
+
+                // 2. Fetch your music.db file from GitHub repository
+                // NOTE: Replace 'music.db' with the exact relative path to your database file
+                const response = await fetch('music.db');
+                const arrayBuffer = await response.arrayBuffer();
+                const uInt8Array = new Uint8Array(arrayBuffer);
+
+                // 3. Open the database in browser memory
+                const db = new SQL.Database(uInt8Array);
+                document.getElementById('status').innerText = "Database loaded. Querying tracks...";
+
+                // 4. Run a standard SQL Query
+                const query = "SELECT title, artist, genre, duration, audio_url FROM tracks ORDER BY id DESC";
+                const result = db.exec(query);
+
+                // 5. Render the data to the DOM
+                displayTracks(result[0]);
+                document.getElementById('status').style.display = 'none';
+
+            } catch (error) {
+                console.error(error);
+                document.getElementById('status').innerText = "Error loading database. Check console.";
+                document.getElementById('status').style.color = "#ff4444";
+            }
+        }
+
+        function displayTracks(data) {
+            const listContainer = document.getElementById('music-list');
+            if (!data || !data.values) {
+                listContainer.innerHTML = "<p>No music clips found.</p>";
+                return;
+            }
+
+            // Loop through each row returned by the SQL statement
+            data.values.forEach(row => {
+                const [title, artist, genre, duration, audio_url] = row;
+
+                const card = document.createElement('div');
+                card.className = 'track-card';
+                card.innerHTML = `
+                    <div class="track-info">
+                        <h3>${title}</h3>
+                        <p>By ${artist} • <strong>${genre}</strong> • ${duration}</p>
+                        <audio controls preload="none">
+                            <source src="${audio_url}" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                `;
+                listContainer.appendChild(card);
+            });
+        }
+
+        // Run the script on page load
+        initDatabase();
+    </script>
+</body>
+</html>

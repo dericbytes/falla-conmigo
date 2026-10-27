@@ -2,5 +2,6 @@
 <h2>Hola</h2>
 <p>
 <a href="ofrebrero-erizo.html">El ofrebrero erizo</a>
+<a href="sqlite-example.html">sqlite example</a>
 </p>
 </div>
