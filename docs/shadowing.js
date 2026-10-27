@@ -10,6 +10,8 @@ const audio = document.getElementById("audio");
 // const volumeValue = document.getElementById('volume-value');
 const startAButton = document.getElementById('markA');
 const startBButton = document.getElementById('markB');
+const nextButton = document.getElementById('next');
+const previousButton = document.getElementById('previous');
 const $ = id => document.getElementById(id);
 
 let tracks = [];
@@ -165,6 +167,14 @@ function updateActiveTrack() {
   });
 }
 
+function selectNextTrack() {
+  selectTrack(activeTrack + 1);
+}
+
+function selectPreviousTrack() {
+  selectTrack(activeTrack - 1);
+}
+
 function selectTrack(index) {
   const track = tracks[index];
   if (!track) return;
@@ -240,6 +250,10 @@ $("back").addEventListener("click", () => {
 $("forward").addEventListener("click", () => {
   seekTo(audio.currentTime + 5);
 });
+
+    next.addEventListener("next", () => selectNextTrack());
+    previous.addEventListener("previous", () => selectPreviousTrack();
+
 
 $("replay").addEventListener("click", () => {
   seekTo(audio.currentTime - 5);
