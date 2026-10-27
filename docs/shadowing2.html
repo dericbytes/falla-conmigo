@@ -1,209 +1,207 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Language Shadowing</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Language Shadowing</title>
 
-  <style>
-    body {
-      font-family: system-ui, sans-serif;
-      margin: 30px auto;
-      padding: 0 16px;
-      background: #f5f5f5;
-      color: #222;
-    }
+    <style>
+     body {
+       font-family: system-ui, sans-serif;
+       margin: 30px auto;
+       padding: 0 16px;
+       background: #f5f5f5;
+       color: #222;
+     }
 
-    .panel {
-      background: white;
-      padding: 20px;
-      margin-bottom: 16px;
-      border-radius: 12px;
-      box-shadow: 0 2px 8px #0001;
-    }
+     .panel {
+       background: white;
+       padding: 20px;
+       margin-bottom: 16px;
+       border-radius: 12px;
+       box-shadow: 0 2px 8px #0001;
+     }
 
-    h1 { font-size: 1.5rem; }
-    h2 { font-size: 1.1rem; }
+     h1 { font-size: 1.5rem; }
+     h2 { font-size: 1.1rem; }
 
-    button, select {
-      font: inherit;
-      padding: 8px 12px;
-      border: 1px solid #ccc;
-      border-radius: 7px;
-      background: white;
-      cursor: pointer;
-    }
+     button, select {
+       font: inherit;
+       padding: 8px 12px;
+       border: 1px solid #ccc;
+       border-radius: 7px;
+       background: white;
+       cursor: pointer;
+     }
 
-    button:hover, .track:hover {
-      background: #e8eefc;
-    }
+     button:hover, .track:hover {
+       background: #e8eefc;
+     }
 
-    button.primary {
-      background: #2458c6;
-      color: white;
-      border-color: #2458c6;
-    }
+     button.primary {
+       background: #2458c6;
+       color: white;
+       border-color: #2458c6;
+     }
 
-    .controls {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      align-items: center;
-      margin: 12px 0;
-    }
+     .controls {
+       display: flex;
+       flex-wrap: wrap;
+       gap: 8px;
+       align-items: center;
+       margin: 12px 0;
+     }
 
-    audio { width: 100%; }
+     audio { width: 100%; }
 
-    input[type="range"] { width: 100%; }
+     input[type="range"] { width: 100%; }
 
-    .time {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.9rem;
-      font-variant-numeric: tabular-nums;
-    }
+     .time {
+       display: flex;
+       justify-content: space-between;
+       font-size: 0.9rem;
+       font-variant-numeric: tabular-nums;
+     }
 
-    #playlist {
-      display: flex;
-      flex-direction: column;
-      gap: 5px;
-    }
+     #playlist {
+       display: flex;
+       flex-direction: column;
+       gap: 5px;
+     }
 
-    .track {
-      display: block;
-      width: 100%;
-      text-align: left;
-      padding: 12px;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      background: white;
-    }
+     .track {
+       display: block;
+       width: 100%;
+       text-align: left;
+       padding: 12px;
+       border: 1px solid #ddd;
+       border-radius: 8px;
+       background: white;
+     }
 
-    .track.active {
-      background: #dce8ff;
-      border-color: #2458c6;
-    }
+     .track.active {
+       background: #dce8ff;
+       border-color: #2458c6;
+     }
 
-    .track-title { font-weight: 600; }
-    .track-info { font-size: 0.85rem; color: #666; }
-    .muted { color: #666; font-size: 0.9rem; }
-    #status { white-space: pre-wrap; }
+     .track-title { font-weight: 600; }
+     .track-info { font-size: 0.85rem; color: #666; }
+     .muted { color: #666; font-size: 0.9rem; }
+     #status { white-space: pre-wrap; }
 
-    hr {
-      border: 0;
-      border-top: 1px solid #ddd;
-      margin: 18px 0;
-    }
+     hr {
+       border: 0;
+       border-top: 1px solid #ddd;
+       margin: 18px 0;
+     }
 
-   button.active {
-  background-color: #4caf50;
-  color: white;
-  border: 2px solid #2e7d32;
-}
-  </style>
-</head>
+     button.active {
+       background-color: #4caf50;
+       color: white;
+       border: 2px solid #2e7d32;
+     }
+    </style>
+  </head>
 
-<body>
-  <h1>Language Shadowing</h1>
+  <body>
+    <h1>Language Shadowing</h1>
 
- 
+    <section class="panel">
+      <h2 id="nowPlaying">Select a track</h2>
+      <p id="trackInfo" class="muted"></p>
 
-  <section class="panel">
-    <h2 id="nowPlaying">Select a track</h2>
-    <p id="trackInfo" class="muted"></p>
+      <audio id="audio" preload="metadata"></audio>
 
-    <audio id="audio" preload="metadata"></audio>
+      <span id="volume-value">100%</span>
 
-<span id="volume-value">100%</span>
+      <div class="time">
+        <span id="current">00:00</span>
+        <span id="duration">00:00</span>
+      </div>
 
-    <div class="time">
-      <span id="current">00:00</span>
-      <span id="duration">00:00</span>
-    </div>
+      <input id="seek" type="range" min="0" max="1000"
+      value="0" step="1" aria-label="Seek">
 
-    <input id="seek" type="range" min="0" max="1000"
-           value="0" step="1" aria-label="Seek">
+      <div class="controls">
+        <button id="back">−5 sec</button>
+        <button id="replay">↶ Replay 5 sec</button>
+        <button id="play" class="primary">▶ Play / Pause</button>
+        <button id="forward">+5 sec</button>
+      </div>
 
-    <div class="controls">
-      <button id="back">−5 sec</button>
-      <button id="replay">↶ Replay 5 sec</button>
-      <button id="play" class="primary">▶ Play / Pause</button>
-      <button id="forward">+5 sec</button>
-    </div>
+      <hr>
 
-    <hr>
+      <h2>Shadowing controls</h2>
 
-    <h2>Shadowing controls</h2>
+      <div class="controls">
+        <label for="speed">Speed:</label>
+        <select id="speed">
+          <option value="0.5">0.5×</option>
+          <option value="0.65">0.65×</option>
+          <option value="0.75">0.75×</option>
+          <option value="0.85">0.85×</option>
+          <option value="1" selected>1× Normal</option>
+          <option value="1.1">1.1×</option>
+          <option value="1.25">1.25×</option>
+          <option value="1.5">1.5×</option>
+        </select>
+      </div>
 
-    <div class="controls">
-      <label for="speed">Speed:</label>
-      <select id="speed">
-        <option value="0.5">0.5×</option>
-        <option value="0.65">0.65×</option>
-        <option value="0.75">0.75×</option>
-        <option value="0.85">0.85×</option>
-        <option value="1" selected>1× Normal</option>
-        <option value="1.1">1.1×</option>
-        <option value="1.25">1.25×</option>
-        <option value="1.5">1.5×</option>
-      </select>
-    </div>
+      <!-- <p>
+           
+           <label for="volume">Volume</label>
+           <input
+           type="range"
+           id="volume"
+           min="0"
+           max="1"
+           step="0.05"
+           value="1"
+           >
+           </p> -->
 
-    <!-- <p>
-         
-         <label for="volume">Volume</label>
-         <input
-         type="range"
-         id="volume"
-         min="0"
-         max="1"
-         step="0.05"
-         value="1"
-         >
-         </p> -->
+      <p>Mark the beginning and end of a sentence to practise it repeatedly.</p>
 
-    <p>Mark the beginning and end of a sentence to practise it repeatedly.</p>
+      <div class="controls">
+        <button id="markA">Set start A</button>
+        <button id="markB">Set end B</button>
+        <button id="loop">Loop: OFF</button>
+        <button id="clear">Clear marks</button>
+      </div>
 
-    <div class="controls">
-      <button id="markA">Set start A</button>
-      <button id="markB">Set end B</button>
-      <button id="loop">Loop: OFF</button>
-      <button id="clear">Clear marks</button>
-    </div>
+      <p id="marks" class="muted">A: — | B: —</p>
 
-    <p id="marks" class="muted">A: — | B: —</p>
+      <div class="controls">
+        <label for="repeats">Repetitions:</label>
+        <select id="repeats">
+          <option value="2">2 times</option>
+          <option value="3" selected>3 times</option>
+          <option value="5">5 times</option>
+          <option value="10">10 times</option>
+          <option value="0">Until stopped</option>
+        </select>
+        <button id="repeat" class="primary">Repeat section</button>
+      </div>
 
-    <div class="controls">
-      <label for="repeats">Repetitions:</label>
-      <select id="repeats">
-        <option value="2">2 times</option>
-        <option value="3" selected>3 times</option>
-        <option value="5">5 times</option>
-        <option value="10">10 times</option>
-        <option value="0">Until stopped</option>
-      </select>
-      <button id="repeat" class="primary">Repeat section</button>
-    </div>
+      <p id="practiceStatus" class="muted"></p>
 
-    <p id="practiceStatus" class="muted"></p>
+      <hr>
 
-    <hr>
+      <p class="muted">
+        Keyboard: Space = play/pause; ← / → = skip 5 seconds;
+        ↑ / ↓ = volume; R = replay 5 seconds; Escape = stop repetition.
+      </p>
+    </section>
 
-    <p class="muted">
-      Keyboard: Space = play/pause; ← / → = skip 5 seconds;
-      ↑ / ↓ = volume; R = replay 5 seconds; Escape = stop repetition.
-    </p>
-  </section>
+    <section class="panel">
+      <h2>My Playlist</h2>
+      <p id="status" class="muted">Loading playlist…</p>
+      <div id="playlist"></div>
+    </section>
 
-   <section class="panel">
-    <h2>Playlist</h2>
-    <p id="status" class="muted">Loading playlist…</p>
-    <div id="playlist"></div>
-  </section>
-
-  <!-- SQL.js: browser-based SQLite engine -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/sql-wasm.js"></script>
-  <script src="shadowing.js"></script>
-</body>
+    <!-- SQL.js: browser-based SQLite engine -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/sql-wasm.js"></script>
+    <script src="shadowing.js"></script>
+  </body>
 </html>
