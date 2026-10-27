@@ -66,7 +66,7 @@ async function loadPlaylist() {
     // Change this query if your table or column names differ.
     const results = db.exec(`
       SELECT title, artist, genre, duration, audio_url
-      FROM audio_playlist
+      FROM track
     `);
 
     if (!results.length) {
