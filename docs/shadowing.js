@@ -251,8 +251,8 @@ $("forward").addEventListener("click", () => {
   seekTo(audio.currentTime + 5);
 });
 
-nextButton.addEventListener("next", () => selectNextTrack());
-previousButton.addEventListener("previous", () => selectPreviousTrack());
+nextButton.addEventListener("click", () => selectNextTrack());
+previousButton.addEventListener("click", () => selectPreviousTrack());
 
 
 $("replay").addEventListener("click", () => {
