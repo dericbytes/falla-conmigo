@@ -22,13 +22,14 @@
     <div id="music-list"></div>
 
     <!-- Load the official SQLite3 WASM script from CDN -->
-    <script src="https://cloudflare.com"></script>
+  <!--     <script src="https://cloudflare.com"></script> -->
+    <script src="https://unpkg.com"></script>
 
     <script>
         async function initDatabase() {
             try {
                 // 1. Initialize sql.js library
-                const config = { locateFile: filename => `https://cloudflare.com{filename}` };
+                const config = { locateFile: filename => `https://unpkg.com{filename}` };
                 const SQL = await initSqlJs(config);
 
                 // 2. Fetch your music.db file from GitHub repository
